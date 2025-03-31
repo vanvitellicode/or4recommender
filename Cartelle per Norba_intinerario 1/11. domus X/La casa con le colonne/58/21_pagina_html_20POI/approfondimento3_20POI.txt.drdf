@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:annotationText>casa</j.2:annotationText>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>36</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>40</j.2:hasFakeEndOffset>
+    <j.2:anID>-0.7085067491364433</j.2:anID>
+    <j.2:sLocation>36</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Casa_con_le_colonne,Domus,0</j.2:hasConcept>
+    <j.2:eLocation>40</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Casa_con_le_colonne</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:annotationText>pavimentazione</j.2:annotationText>
+    <j.2:anID>-1.2548041160114918</j.2:anID>
+    <j.2:eLocation>17</j.2:eLocation>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>17</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasConcept>Pavimenti,Tecniche_Edilizie,0</j.2:hasConcept>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+    <j.2:hasConcept>Tecniche_Edilizie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>24</j.2:hasFakeStartOffset>
+    <j.2:eLocation>29</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>29</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Atrium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:annotationText>corte</j.2:annotationText>
+    <j.2:sLocation>24</j.2:sLocation>
+    <j.2:anID>-0.2151427333375136</j.2:anID>
+    <j.2:hasColor>0,255,0</j.2:hasColor>
+    <j.2:hasConcept>Atrium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:hasConcept>Norba_Casa_con_le_colonne,Domus,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>73</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>57</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>74</j.2:eLocation>
+    <j.2:sLocation>58</j.2:sLocation>
+    <j.2:anID>-0.7436215949158461</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>casa con colonne</j.2:annotationText>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasConcept>Norba_Casa_con_le_colonne</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:hasFakeEndOffset>50</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Atrium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasColor>0,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-0.4979926598704518</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>45</j.2:hasFakeStartOffset>
+    <j.2:annotationText>corte</j.2:annotationText>
+    <j.2:eLocation>51</j.2:eLocation>
+    <j.2:sLocation>46</j.2:sLocation>
+    <j.2:hasConcept>Atrium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

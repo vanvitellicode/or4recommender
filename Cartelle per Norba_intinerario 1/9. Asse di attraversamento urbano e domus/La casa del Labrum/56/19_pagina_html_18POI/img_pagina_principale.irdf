@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>1148</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:annotationText>norba_casa_del_labrum</j.1:annotationText>
+    <j.1:annotationHeight>26</j.1:annotationHeight>
+    <j.1:hasConcept>Norba_Casa_del_labrum,Domus,0</j.1:hasConcept>
+    <j.1:anID>-0.2543674209836176</j.1:anID>
+    <j.1:topY>630</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>1177</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:annotationWidth>29</j.1:annotationWidth>
+    <j.1:bottomY>656</j.1:bottomY>
+    <j.1:hasConcept>Norba_Casa_del_labrum</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:bottomY>687</j.1:bottomY>
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:topY>668</j.1:topY>
+    <j.1:hasContent />
+    <j.1:topX>20</j.1:topX>
+    <j.1:hasComment />
+    <j.1:annotationWidth>44</j.1:annotationWidth>
+    <j.1:annotationHeight>19</j.1:annotationHeight>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:botomX>64</j.1:botomX>
+    <j.1:anID>1.0746713379962574</j.1:anID>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

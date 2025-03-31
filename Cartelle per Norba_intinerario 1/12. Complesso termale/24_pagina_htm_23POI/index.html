@@ -1,0 +1,34 @@
+<html>
+ <head>
+  <SCRIPT TYPE="text/javascript">
+   <!--
+   var child;
+    function popup(mylink, windowname)
+      {
+        if (! window.focus)return true;
+        var href;
+        if (typeof(mylink) == 'string')
+          href=mylink;
+        else
+          href=mylink.href;
+        child=window.open(href, windowname, 'width=400,height=200,scrollbars=yes');
+        return false;
+      }
+      
+      function closeChild()
+      {
+        child.window.close();
+      }
+//--></script>
+
+ </head>
+ <body>
+  <div id="top" style="border:1px solid black;">
+   <a href="lista.php" onClick="return popup(this, 'notes')">Annotated Contents</a>
+  </div>
+  <div id="bottom" style="border:1px solid black;">
+   <iframe onload="closeChild();" name="inner_frame" id="inner_frame" width="100%" height="100%" src='pagina_principale.htm'></iframe>
+  </div>
+</body>
+ 
+</html>

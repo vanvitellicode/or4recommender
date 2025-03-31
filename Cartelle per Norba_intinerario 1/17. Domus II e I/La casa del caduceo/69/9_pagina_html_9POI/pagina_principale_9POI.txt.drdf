@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasConcept>Norba_Domus_1,Domus,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>24</j.2:sLocation>
+    <j.2:eLocation>46</j.2:eLocation>
+    <j.2:annotationText>casa detta del caduceo</j.2:annotationText>
+    <j.2:anID>-0.33510433619063024</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>45</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>23</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Domus_1</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasFakeStartOffset>236</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Culina,Parti_Domus,0</j.2:hasConcept>
+    <j.2:sLocation>237</j.2:sLocation>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>257</j.2:eLocation>
+    <j.2:annotationText>ambienti di servizio</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-0.08761199576440133</j.2:anID>
+    <j.2:hasFakeEndOffset>256</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Culina</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasFakeEndOffset>337</j.2:hasFakeEndOffset>
+    <j.2:annotationText>piccolo spazio aperto davanti la porta</j.2:annotationText>
+    <j.2:hasConcept>Vestibulum,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasColor>140,230,100</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>0.5497441886361659</j.2:anID>
+    <j.2:eLocation>339</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>299</j.2:hasFakeStartOffset>
+    <j.2:sLocation>301</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Vestibulum</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>0.0638603137433927</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>19</j.2:hasFakeEndOffset>
+    <j.2:annotationText>casa del caduceo</j.2:annotationText>
+    <j.2:eLocation>19</j.2:eLocation>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Domus_1,Domus,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba_Domus_1</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:sLocation>186</j.2:sLocation>
+    <j.2:eLocation>203</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:anID>-0.6703539956098099</j.2:anID>
+    <j.2:hasFakeStartOffset>185</j.2:hasFakeStartOffset>
+    <j.2:annotationText>un atrio centrale</j.2:annotationText>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Atrium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>202</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Atrium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:anID>-1.723455077625653</j.2:anID>
+    <j.2:hasFakeStartOffset>505</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>545</j.2:hasFakeEndOffset>
+    <j.2:sLocation>508</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Fauces,Parti_Domus,0</j.2:hasConcept>
+    <j.2:eLocation>548</j.2:eLocation>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:annotationText>stretto corridoio che volgeva nell?atrio</j.2:annotationText>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Fauces</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:eLocation>611</j.2:eLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>608</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasFakeStartOffset>588</j.2:hasFakeStartOffset>
+    <j.2:annotationText>ambienti di servizio</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>0.7707591788560912</j.2:anID>
+    <j.2:sLocation>591</j.2:sLocation>
+    <j.2:hasConcept>Culina,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasConcept>Culina</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-0.594864888357442</j.2:anID>
+    <j.2:annotationText>terrazze</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>88</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Terrazza,Parti_Domus,0</j.2:hasConcept>
+    <j.2:eLocation>97</j.2:eLocation>
+    <j.2:sLocation>89</j.2:sLocation>
+    <j.2:hasFakeEndOffset>96</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Terrazza</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasFakeStartOffset>470</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>490</j.2:eLocation>
+    <j.2:sLocation>473</j.2:sLocation>
+    <j.2:annotationText>soglia d?ingresso</j.2:annotationText>
+    <j.2:hasFakeEndOffset>487</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Soglia,Elementi_Architettonici,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>-0.7761713888915907</j.2:anID>
+    <j.2:hasConcept>Soglia</j.2:hasConcept>
+    <j.2:hasConcept>Elementi_Architettonici</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:anID>-0.23572652998841623</j.2:anID>
+    <j.2:hasConcept>Triclinium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>641</j.2:hasFakeStartOffset>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:annotationText>ambienti di rappresentanza</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>644</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>667</j.2:hasFakeEndOffset>
+    <j.2:eLocation>670</j.2:eLocation>
+    <j.2:hasConcept>Triclinium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

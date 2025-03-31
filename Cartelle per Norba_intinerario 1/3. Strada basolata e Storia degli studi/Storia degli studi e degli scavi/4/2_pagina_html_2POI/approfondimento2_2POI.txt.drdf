@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasConcept>John_Izard_Middleton,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:eLocation>48</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>27</j.2:hasFakeStartOffset>
+    <j.2:sLocation>28</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>John Izard Middleton</j.2:annotationText>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>47</j.2:hasFakeEndOffset>
+    <j.2:anID>1.073082949884631</j.2:anID>
+    <j.2:hasConcept>John_Izard_Middleton</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

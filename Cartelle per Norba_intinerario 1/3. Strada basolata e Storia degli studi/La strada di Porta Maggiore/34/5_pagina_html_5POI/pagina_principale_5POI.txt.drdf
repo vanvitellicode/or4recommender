@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>75</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Strada_di_Porta_Maggiore,Vie,0</j.2:hasConcept>
+    <j.2:anID>0.6061849602805841</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>190,170,130</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>30</j.2:sLocation>
+    <j.2:hasFakeStartOffset>29</j.2:hasFakeStartOffset>
+    <j.2:eLocation>76</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>La strada che entra in citt? da Porta Maggiore</j.2:annotationText>
+    <j.2:hasConcept>Strada_di_Porta_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasFakeEndOffset>818</j.2:hasFakeEndOffset>
+    <j.2:anID>0.6844558720052248</j.2:anID>
+    <j.2:eLocation>819</j.2:eLocation>
+    <j.2:hasFakeStartOffset>743</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>744</j.2:sLocation>
+    <j.2:hasConcept>Fogna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:annotationText>creata per accogliere l?acqua piovana e incanalarla nella fogna sottostante</j.2:annotationText>
+    <j.2:hasConcept>Fogna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:sLocation>257</j.2:sLocation>
+    <j.2:eLocation>411</j.2:eLocation>
+    <j.2:hasFakeStartOffset>256</j.2:hasFakeStartOffset>
+    <j.2:anID>0.303824424889421</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>Il suo pavimento si presenta piuttosto sconnesso ed irregolare, con basoli di calcare sia grigio che bianco, di forme variabili e dimensioni medio/piccole</j.2:annotationText>
+    <j.2:hasFakeEndOffset>410</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:eLocation>27</j.2:eLocation>
+    <j.2:anID>0.3860949424716865</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasColor>190,170,130</j.2:hasColor>
+    <j.2:hasFakeEndOffset>27</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>strada di Porta Maggiore</j.2:annotationText>
+    <j.2:hasConcept>Strada_di_Porta_Maggiore,Vie,0</j.2:hasConcept>
+    <j.2:hasConcept>Strada_di_Porta_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:eLocation>205</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>0.32723087141295787</j.2:anID>
+    <j.2:sLocation>172</j.2:sLocation>
+    <j.2:annotationText>pavimentata con basoli in calcare</j.2:annotationText>
+    <j.2:hasFakeStartOffset>171</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>204</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:anID>-0.2382288063092291</j.2:anID>
+    <j.2:hasConcept>Vie,Viabilita,0</j.2:hasConcept>
+    <j.2:sLocation>547</j.2:sLocation>
+    <j.2:hasFakeStartOffset>546</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>552</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>553</j.2:eLocation>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>strada</j.2:annotationText>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+    <j.2:hasConcept>Viabilita</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasConcept>Vie,Viabilita,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>170</j.2:eLocation>
+    <j.2:annotationText>via</j.2:annotationText>
+    <j.2:anID>0.07977091506285898</j.2:anID>
+    <j.2:hasFakeEndOffset>169</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>167</j.2:sLocation>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>166</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+    <j.2:hasConcept>Viabilita</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:hasFakeEndOffset>254</j.2:hasFakeEndOffset>
+    <j.2:anID>0.2990983186948274</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>255</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>225</j.2:sLocation>
+    <j.2:hasFakeStartOffset>224</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Marciapiedi,Vie,0</j.2:hasConcept>
+    <j.2:annotationText>marciapiedi su entrambi i lati</j.2:annotationText>
+    <j.2:hasConcept>Marciapiedi</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.2:eLocation>698</j.2:eLocation>
+    <j.2:hasFakeStartOffset>670</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>697</j.2:hasFakeEndOffset>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:annotationText>la presenza di una piazzola</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-0.17259174939942762</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Piazzole,Vie,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:sLocation>671</j.2:sLocation>
+    <j.2:hasConcept>Piazzole</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

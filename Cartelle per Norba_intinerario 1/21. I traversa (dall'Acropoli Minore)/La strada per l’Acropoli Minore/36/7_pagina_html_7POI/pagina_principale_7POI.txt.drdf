@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>strada</j.2:annotationText>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:eLocation>367</j.2:eLocation>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-2.0086860635640953</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>361</j.2:sLocation>
+    <j.2:hasFakeEndOffset>366</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>360</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:anID>-0.7113114861329782</j.2:anID>
+    <j.2:hasFakeEndOffset>192</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Porta_Maggiore,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>Porta Maggiore</j.2:annotationText>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>178</j.2:hasFakeStartOffset>
+    <j.2:eLocation>193</j.2:eLocation>
+    <j.2:sLocation>179</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Porta_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasColor>140,230,100</j.2:hasColor>
+    <j.2:hasFakeStartOffset>570</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>#Medioevo_(II_meta_V_secolo_-_XV_secolo),Fasi_storiche,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>epoca medioevale</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>1.8790260166535133</j.2:anID>
+    <j.2:eLocation>587</j.2:eLocation>
+    <j.2:hasFakeEndOffset>586</j.2:hasFakeEndOffset>
+    <j.2:sLocation>571</j.2:sLocation>
+    <j.2:hasConcept>#Medioevo_(II_meta_V_secolo_-_XV_secolo)</j.2:hasConcept>
+    <j.2:hasConcept>Fasi_storiche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:annotationText>strada</j.2:annotationText>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>76</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>71</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.2:hasConcept>
+    <j.2:anID>-0.733794888787382</j.2:anID>
+    <j.2:hasFakeStartOffset>70</j.2:hasFakeStartOffset>
+    <j.2:eLocation>77</j.2:eLocation>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:sLocation>232</j.2:sLocation>
+    <j.2:hasFakeEndOffset>234</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>via</j.2:annotationText>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>231</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-1.575980460501858</j.2:anID>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:eLocation>235</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.2:hasConcept>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>strada per l?Acropoli Minore</j.2:annotationText>
+    <j.2:eLocation>31</j.2:eLocation>
+    <j.2:hasFakeEndOffset>31</j.2:hasFakeEndOffset>
+    <j.2:anID>-1.8710747431171144</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasColor>140,230,100</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>713</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-3.5441824133599664</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>tombe</j.2:annotationText>
+    <j.2:eLocation>719</j.2:eLocation>
+    <j.2:hasFakeEndOffset>718</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Sepolture,Beni_immobili,0</j.2:hasConcept>
+    <j.2:sLocation>714</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Sepolture</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:annotationText>chiesetta</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>655</j.2:hasFakeStartOffset>
+    <j.2:eLocation>665</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>664</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>0.1879484683349585</j.2:anID>
+    <j.2:sLocation>656</j.2:sLocation>
+    <j.2:hasConcept>chiese_cristiane,Edifici_sacri,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>chiese_cristiane</j.2:hasConcept>
+    <j.2:hasConcept>Edifici_sacri</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:anID>1.037347438052179</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>681</j.2:eLocation>
+    <j.2:annotationText>strada</j.2:annotationText>
+    <j.2:hasFakeStartOffset>674</j.2:hasFakeStartOffset>
+    <j.2:sLocation>675</j.2:sLocation>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>680</j.2:hasFakeEndOffset>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_strada_per_Acropoli_minore</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:sLocation>110</j.2:sLocation>
+    <j.2:hasFakeEndOffset>117</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Piazzole,Vie,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>piazzola</j.2:annotationText>
+    <j.2:hasFakeStartOffset>109</j.2:hasFakeStartOffset>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>0.894412137515171</j.2:anID>
+    <j.2:eLocation>118</j.2:eLocation>
+    <j.2:hasConcept>Piazzole</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasConcept>Norba_Acropoli_Minore,Santuari,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>211</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>Acropoli Minore</j.2:annotationText>
+    <j.2:hasFakeEndOffset>226</j.2:hasFakeEndOffset>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:sLocation>212</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>227</j.2:eLocation>
+    <j.2:anID>-1.3880713277010925</j.2:anID>
+    <j.2:hasConcept>Norba_Acropoli_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Santuari</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>326</j.2:sLocation>
+    <j.2:annotationText>asse di attraversamento urbano</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>325</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>355</j.2:hasFakeEndOffset>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:hasConcept>Norba_strada_principale,Vie,0</j.2:hasConcept>
+    <j.2:eLocation>356</j.2:eLocation>
+    <j.2:anID>-1.4668634093905613</j.2:anID>
+    <j.2:hasConcept>Norba_strada_principale</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasFakeStartOffset>279</j.2:hasFakeStartOffset>
+    <j.2:annotationText>gradinata</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>280</j.2:sLocation>
+    <j.2:hasFakeEndOffset>288</j.2:hasFakeEndOffset>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:eLocation>289</j.2:eLocation>
+    <j.2:hasConcept>Rampa_accesso,Santuari,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-0.3540347106305652</j.2:anID>
+    <j.2:hasConcept>Rampa_accesso</j.2:hasConcept>
+    <j.2:hasConcept>Santuari</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>63</j.2:eLocation>
+    <j.2:annotationText>Acropoli Minore</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Acropoli_Minore,Santuari,0</j.2:hasConcept>
+    <j.2:anID>-1.3542701437416413</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>62</j.2:hasFakeEndOffset>
+    <j.2:sLocation>48</j.2:sLocation>
+    <j.2:hasFakeStartOffset>47</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_Acropoli_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Santuari</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

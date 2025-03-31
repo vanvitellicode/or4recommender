@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Terme,Beni_immobili,0</j.2:hasConcept>
+    <j.2:anID>-0.6819271175058027</j.2:anID>
+    <j.2:hasFakeEndOffset>122</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>114</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>123</j.2:eLocation>
+    <j.2:annotationText>edificio</j.2:annotationText>
+    <j.2:sLocation>115</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:eLocation>365</j.2:eLocation>
+    <j.2:annotationText>opera incerta</j.2:annotationText>
+    <j.2:hasFakeEndOffset>363</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>350</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Opera_incerta,Murature,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>-0.6426490879263838</j.2:anID>
+    <j.2:sLocation>352</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasConcept>Opera_incerta</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasConcept>Terme,Beni_immobili,0</j.2:hasConcept>
+    <j.2:eLocation>221</j.2:eLocation>
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:anID>-0.4129410609955347</j.2:anID>
+    <j.2:hasFakeStartOffset>202</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>204</j.2:sLocation>
+    <j.2:hasFakeEndOffset>219</j.2:hasFakeEndOffset>
+    <j.2:annotationText>complesso termale</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>opera cementizia</j.2:annotationText>
+    <j.2:anID>0.2286423607353476</j.2:anID>
+    <j.2:hasConcept>Opera_cementizia,Murature,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>498</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>500</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasFakeStartOffset>482</j.2:hasFakeStartOffset>
+    <j.2:sLocation>484</j.2:sLocation>
+    <j.2:hasConcept>Opera_cementizia</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>807</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>801</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>bacino_di_raccolta,Terme,0</j.2:hasConcept>
+    <j.2:anID>-1.0562462114860927</j.2:anID>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:annotationText>bacino</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>803</j.2:sLocation>
+    <j.2:eLocation>809</j.2:eLocation>
+    <j.2:hasConcept>bacino_di_raccolta</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:eLocation>334</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>opera cementizia</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>332</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>318</j.2:sLocation>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Opera_cementizia,Murature,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>316</j.2:hasFakeStartOffset>
+    <j.2:anID>-0.745543862626458</j.2:anID>
+    <j.2:hasConcept>Opera_cementizia</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasConcept>bacino_di_raccolta,Terme,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:anID>-1.5316449857928027</j.2:anID>
+    <j.2:hasFakeEndOffset>16</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>16</j.2:eLocation>
+    <j.2:annotationText>grande bacino</j.2:annotationText>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>bacino_di_raccolta</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:anID>-1.8255601664231573</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>586</j.2:hasFakeEndOffset>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:sLocation>582</j.2:sLocation>
+    <j.2:hasFakeStartOffset>580</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>bacino</j.2:annotationText>
+    <j.2:hasConcept>bacino_di_raccolta,Terme,0</j.2:hasConcept>
+    <j.2:eLocation>588</j.2:eLocation>
+    <j.2:hasConcept>bacino_di_raccolta</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasConcept>bacino_di_raccolta,Terme,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>73</j.2:hasFakeStartOffset>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>0.8805010466894122</j.2:anID>
+    <j.2:annotationText>grande bacino</j.2:annotationText>
+    <j.2:hasFakeEndOffset>86</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:sLocation>74</j.2:sLocation>
+    <j.2:eLocation>87</j.2:eLocation>
+    <j.2:hasConcept>bacino_di_raccolta</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

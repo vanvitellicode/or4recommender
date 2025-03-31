@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:hasFakeEndOffset>29</j.2:hasFakeEndOffset>
+    <j.2:sLocation>25</j.2:sLocation>
+    <j.2:hasFakeStartOffset>25</j.2:hasFakeStartOffset>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:annotationText>casa</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Casa_con_le_colonne,Domus,0</j.2:hasConcept>
+    <j.2:eLocation>29</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-1.1825554109076253</j.2:anID>
+    <j.2:hasConcept>Norba_Casa_con_le_colonne</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:eLocation>18</j.2:eLocation>
+    <j.2:hasFakeEndOffset>18</j.2:hasFakeEndOffset>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:anID>-0.22613234409744695</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>camera da letto</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasConcept>Cubiculum,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Cubiculum</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.2:annotationText>camera da letto</j.2:annotationText>
+    <j.2:eLocation>79</j.2:eLocation>
+    <j.2:hasFakeEndOffset>78</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Cubiculum,Parti_Domus,0</j.2:hasConcept>
+    <j.2:sLocation>64</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>63</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>0.02995368452729933</j.2:anID>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasConcept>Cubiculum</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

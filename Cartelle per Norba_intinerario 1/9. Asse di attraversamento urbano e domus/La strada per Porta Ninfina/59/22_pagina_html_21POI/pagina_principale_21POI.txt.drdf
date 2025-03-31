@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>259</j.2:eLocation>
+    <j.2:anID>1.1183021050073523</j.2:anID>
+    <j.2:sLocation>254</j.2:sLocation>
+    <j.2:hasFakeEndOffset>258</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>porta</j.2:annotationText>
+    <j.2:hasFakeStartOffset>253</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba_Porta_Ninfina,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba_Porta_Ninfina</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasFakeStartOffset>711</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>712</j.2:sLocation>
+    <j.2:annotationText>pozzo</j.2:annotationText>
+    <j.2:eLocation>717</j.2:eLocation>
+    <j.2:anID>1.232443537310356</j.2:anID>
+    <j.2:hasConcept>Pozzi,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>716</j.2:hasFakeEndOffset>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasConcept>Pozzi</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasFakeEndOffset>441</j.2:hasFakeEndOffset>
+    <j.2:sLocation>435</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>434</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Calcare,Pietra,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>442</j.2:eLocation>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:anID>-0.05118385982886445</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>calcare</j.2:annotationText>
+    <j.2:hasConcept>Calcare</j.2:hasConcept>
+    <j.2:hasConcept>Pietra</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:annotationText>asse principale</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>159</j.2:eLocation>
+    <j.2:hasConcept>Norba_strada_principale,Vie,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>158</j.2:hasFakeEndOffset>
+    <j.2:sLocation>144</j.2:sLocation>
+    <j.2:anID>0.5228981730074073</j.2:anID>
+    <j.2:hasFakeStartOffset>143</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_strada_principale</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:sLocation>166</j.2:sLocation>
+    <j.2:anID>1.1006684670486528</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>171</j.2:eLocation>
+    <j.2:hasFakeEndOffset>170</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>165</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasFakeStartOffset>370</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>381</j.2:hasFakeEndOffset>
+    <j.2:anID>-1.55891752390989</j.2:anID>
+    <j.2:annotationText>marciapiedi</j.2:annotationText>
+    <j.2:eLocation>382</j.2:eLocation>
+    <j.2:sLocation>371</j.2:sLocation>
+    <j.2:hasConcept>Marciapiedi,Vie,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>255,100,100</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Marciapiedi</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:anID>0.6653868169734437</j.2:anID>
+    <j.2:sLocation>88</j.2:sLocation>
+    <j.2:hasFakeStartOffset>87</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:eLocation>118</j.2:eLocation>
+    <j.2:annotationText>strada detta per Porta Ninfina</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_strada_per_Porta_Ninfina,Vie,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>117</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba_strada_per_Porta_Ninfina</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasFakeEndOffset>198</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>1.5319222568693005</j.2:anID>
+    <j.2:sLocation>191</j.2:sLocation>
+    <j.2:hasColor>192,192,192</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Piazzole,Vie,0</j.2:hasConcept>
+    <j.2:annotationText>piazzola</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>199</j.2:eLocation>
+    <j.2:hasFakeStartOffset>190</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Piazzole</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>534</j.2:eLocation>
+    <j.2:hasFakeStartOffset>526</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>533</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>calcare</j.2:annotationText>
+    <j.2:sLocation>527</j.2:sLocation>
+    <j.2:hasConcept>Calcare,Pietra,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-0.3918553777414549</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Calcare</j.2:hasConcept>
+    <j.2:hasConcept>Pietra</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:annotationText>lastricata con blocchi in calcare</j.2:annotationText>
+    <j.2:sLocation>300</j.2:sLocation>
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>333</j.2:eLocation>
+    <j.2:hasFakeStartOffset>299</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>332</j.2:hasFakeEndOffset>
+    <j.2:anID>-0.6479986118029434</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:hasFakeStartOffset>31</j.2:hasFakeStartOffset>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:anID>-1.3721412758607827</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:sLocation>32</j.2:sLocation>
+    <j.2:eLocation>37</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>36</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:annotationText>strada per Porta Ninfina</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>27</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:anID>-0.5637947254995638</j.2:anID>
+    <j.2:hasConcept>Norba_strada_per_Porta_Ninfina,Vie,0</j.2:hasConcept>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:eLocation>27</j.2:eLocation>
+    <j.2:hasConcept>Norba_strada_per_Porta_Ninfina</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:sLocation>474</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>473</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>478</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_Porta_Ninfina,Opere_difensive,0</j.2:hasConcept>
+    <j.2:eLocation>479</j.2:eLocation>
+    <j.2:annotationText>porta</j.2:annotationText>
+    <j.2:anID>-0.9573519086610734</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasConcept>Norba_Porta_Ninfina</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.2:sLocation>326</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>0.34293946933239056</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>calcare</j.2:annotationText>
+    <j.2:hasFakeStartOffset>325</j.2:hasFakeStartOffset>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:eLocation>333</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Calcare,Pietra,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>332</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Calcare</j.2:hasConcept>
+    <j.2:hasConcept>Pietra</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

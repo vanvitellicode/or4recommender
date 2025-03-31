@@ -1,0 +1,322 @@
+<html xmlns:gepson="xalan://com.xslt.Organize" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/document#" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:java="http://xml.apache.org/xalan/java">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+            .cmenu {margin: 0; padding: 0.3em; list-style-type: none; background-color: white;} 
+            .cmenu li:hover {} .cmenu hr {border: 0; border-bottom: 1px solid grey; margin: 3px 0px 3px 0px; width: 10em;} 
+            .cmenu a {border: 0 !important;} .cmenu a:hover {text-decoration: underline !important;} 
+            .cmenu .topSep {font-size: 90%; border-top: 1px solid gray; margin-top: 0.3em; padding-top: 0.3em;}
+            </style>
+<script type="text/javascript">
+function myOver(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#00FF00";
+        }
+	}
+function myOut(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#FFFFFF";
+        }
+	}
+	function toggleCheck(t){
+	if(document.getElementById(t).checked == true)
+	document.getElementById(t).checked = false;
+	else document.getElementById(t).checked = true;
+}
+ 
+function checkAndGo()
+{
+	var controllo=0;
+	var controllo_radio=false;
+	var concetto;
+	var concetti=new Array();
+	//bisogna scartare i due radio button e i bottoni dal for!!!
+	for (i=0;i<document.forms[0].elements.length-4;i++){
+		if(document.forms[0].elements[i].checked)
+		controllo++;
+	}
+	if(controllo==0){
+		alert("Select at least one concept!");
+		return false;
+	}
+	
+	else if(controllo>1){
+		for (j=0;j<document.forms[0].operator.length;j++) {
+			if (document.forms[0].operator[j].checked) {
+				controllo_radio=true;
+			}
+		}
+		if(!controllo_radio){
+			alert("Select operator!");
+		    return false;
+		}
+	}
+	
+	if (controllo==1){
+		for (k=0;k<document.forms[0].elements.length-4;k++){
+			if(document.forms[0].elements[k].checked)
+			concetto=document.forms[0].elements[k].id;
+		}
+             //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		window.location = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+encodeURIComponent(concetto)+'%22%0A%7D';
+		return false;
+		}
+		if (controllo>1){
+			for (j=0;j<document.forms[0].elements.length-4;j++){
+				if(document.forms[0].elements[j].checked){
+					concetti.push(document.forms[0].elements[j].id);
+				}
+			}
+			var operatore;
+			var query_in;
+			var query_pre='http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A';
+			var query_post='%0A%7D';
+			for (q=0;q<document.forms[0].operator.length;q++) {
+			    if (document.forms[0].operator[q].checked) 
+				operatore = document.forms[0].operator[q].value;
+			}
+			
+			if(operatore=='AND'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					else {
+						query_in=query_in+'%20%2E%20'+'%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					}
+				}
+			}
+			if(operatore=='OR'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					else {
+						query_in=query_in+'%20UNION%20'+'%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					}
+				}
+			}
+			var query = query_pre+query_in+query_post;
+			window.location = query;
+		    return false;
+		
+		}
+}
+
+
+	
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td>
+<form onsubmit="return checkAndGo()" method="get" action="">
+<ul>
+<li>
+<input type="checkbox" name="1" id="Norba_Mura"><a href="javascript:toggleCheck('Norba_Mura');" class="lk" onmouseover="myOver(
+		                 [-0.5870628994709426,0.5580868508376592,-0.7545734294404062,-0.48163216557309163]);" onmouseout="myOut(
+		                 [-0.5870628994709426,0.5580868508376592,-0.7545734294404062,-0.48163216557309163]);">Norba_Mura</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="2" id="Opere_difensive"><a href="javascript:toggleCheck('Opere_difensive');" class="lk" onmouseover="myOver(
+		                 [-0.5870628994709426,0.5580868508376592,-0.4931748035269397,-0.7545734294404062,-0.48163216557309163,-0.10143029205161601,-2.37002825371516]);" onmouseout="myOut(
+		                 [-0.5870628994709426,0.5580868508376592,-0.4931748035269397,-0.7545734294404062,-0.48163216557309163,-0.10143029205161601,-2.37002825371516]);">Opere_difensive</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="3" id="Norba_Porta_Ninfina"><a href="javascript:toggleCheck('Norba_Porta_Ninfina');" class="lk" onmouseover="myOver(
+		                 [-0.4931748035269397]);" onmouseout="myOut(
+		                 [-0.4931748035269397]);">Norba_Porta_Ninfina</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="4" id="Insediamenti_Urbani"><a href="javascript:toggleCheck('Insediamenti_Urbani');" class="lk" onmouseover="myOver(
+		                 [0.4452246598787048,1.5604012980921063]);" onmouseout="myOut(
+		                 [0.4452246598787048,1.5604012980921063]);">Insediamenti_Urbani</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="5" id="Porta_tipo_a_corridoio"><a href="javascript:toggleCheck('Porta_tipo_a_corridoio');" class="lk" onmouseover="myOver(
+		                 [0.8782229430062919,2.2222788889762444]);" onmouseout="myOut(
+		                 [0.8782229430062919,2.2222788889762444]);">Porta_tipo_a_corridoio</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="6" id="Tipologia_Porte"><a href="javascript:toggleCheck('Tipologia_Porte');" class="lk" onmouseover="myOver(
+		                 [0.8782229430062919,2.2222788889762444]);" onmouseout="myOut(
+		                 [0.8782229430062919,2.2222788889762444]);">Tipologia_Porte</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="7" id="Norba_Porta_Signina"><a href="javascript:toggleCheck('Norba_Porta_Signina');" class="lk" onmouseover="myOver(
+		                 [-0.10143029205161601]);" onmouseout="myOut(
+		                 [-0.10143029205161601]);">Norba_Porta_Signina</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="8" id="Norba_Porta_Serrone_di_Bove"><a href="javascript:toggleCheck('Norba_Porta_Serrone_di_Bove');" class="lk" onmouseover="myOver(
+		                 [-2.37002825371516]);" onmouseout="myOut(
+		                 [-2.37002825371516]);">Norba_Porta_Serrone_di_Bove</a>
+</li>
+<br>
+</ul>
+<input value="Update Profile" type="submit">
+<table>
+<tr>
+<td>
+<ul>
+<li>
+<input type="radio" name="operator" value="AND">AND</li>
+<li>
+<input type="radio" name="operator" value="OR">OR</li>
+</ul>
+</td><td><input type="submit" value="Semantic Search"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<div>
+<p>
+<h3>Altre porte della <span style="background-color: #FFFFFF" id="1.5604012980921063"><a href="#">città</a></span>
+</h3><span style="background-color: #FFFFFF" id="-0.4931748035269397"><a href="#">Porta Ninfina</a></span>: posta a strapiombo su Ninfa. La porta è larga 7,7 m, conserva gli stipiti in grandi blocchi parallelepipedi, che <span style="background-color: #FFFFFF" id="2.2222788889762444"><a href="#">sembrano proseguire a corridoio verso l’interno</a></span>. Davanti alla porta la strada si allarga e forma un piazzale. E’ stato proposto che costituisse l’accesso più antico alla <span style="background-color: #FFFFFF" id="0.4452246598787048"><a href="#">città</a></span>. 
+<span style="background-color: #FFFFFF" id="-2.37002825371516"><a href="#">Porta Serrone di Bove</a></span>: aperta sul lato occidentale delle <span style="background-color: #FFFFFF" id="-0.48163216557309163"><a href="#">mura</a></span>, è un semplice varco nelle <span style="background-color: #FFFFFF" id="-0.7545734294404062"><a href="#">mura</a></span>, poco leggibile e sbarrato da un <span style="background-color: #FFFFFF" id="-0.5870628994709426"><a href="#">mura</a></span>glione moderno: era larga 5. 
+<span style="background-color: #FFFFFF" id="-0.10143029205161601"><a href="#">Porta Signina</a></span>: si apre nell’angolo nord orientale delle <span style="background-color: #FFFFFF" id="0.5580868508376592"><a href="#">mura</a></span>. Larga 5,35 m <span style="background-color: #FFFFFF" id="0.8782229430062919"><a href="#">si presentava a corridoio</a></span>. Attualmente è avvolta da cespugli e rovi.
+
+
+</p>
+</div>
+</td>
+</tr>
+</table>
+<div style="border: 1px solid blue; display: none; position: absolute" id="divContext">
+<ul class="cmenu">
+<li>
+<a target="_blank" href="#" id="aContextNav">Search related contents</a>
+</li>
+</ul>
+</div>
+<script type="text/javascript" language="JavaScript">
+                   
+var _replaceContext = false;		// replace the system context menu?
+var _mouseOverContext = false;		// is the mouse over the context menu?
+var _noContext = false;				// disable the context menu?
+var _divContext = $('divContext');	// makes my life easier
+
+InitContext();
+
+function InitContext()
+{
+	_divContext.onmouseover = function() { _mouseOverContext = true; };
+	_divContext.onmouseout = function() { _mouseOverContext = false; };
+
+	//$('aDisable').onclick = DisableContext;
+	//$('aEnable').onclick = EnableContext;
+
+	document.body.onmousedown = ContextMouseDown;
+	document.body.oncontextmenu = ContextShow;
+}
+
+// call from the onMouseDown event, passing the event if standards compliant
+function ContextMouseDown(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	// only show the context menu if the right mouse button is pressed
+	//   and a hyperlink has been clicked (the code can be made more selective)
+	if (event.button != 2 && target.tagName.toLowerCase() == 'a' && target.className != 'lk'){
+	    target.href="http://www.google.com/search?q="+target.innerHTML;
+	    target.target="_blank";
+	    }
+	if (event.button == 2 && target.tagName.toLowerCase() == 'a' && target.className == 'lk')
+		_replaceContext = true;
+	else if (!_mouseOverContext)
+		_divContext.style.display = 'none';
+}
+
+function CloseContext()
+{
+	_mouseOverContext;
+	_divContext.style.display = 'none';
+}
+
+// call from the onContextMenu event, passing the event
+// if this function returns false, the browser's context menu will not show up
+function ContextShow(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	if (_replaceContext)
+	{
+              //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		$('aContextNav').href = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+
+			encodeURIComponent(target.innerHTML)+'%22%0A%7D';
+		//$('aAddWebmark').href = 'http://luke.breuer.com/webmark/?addurl=' +
+		//	encodeURIComponent(target.href) + '&title=' +
+		//	encodeURIComponent(target.innerHTML);
+		
+		// document.body.scrollTop does not work in IE
+		var scrollTop = document.body.scrollTop ? document.body.scrollTop :
+			document.documentElement.scrollTop;
+		var scrollLeft = document.body.scrollLeft ? document.body.scrollLeft :
+			document.documentElement.scrollLeft;
+
+		// hide the menu first to avoid an "up-then-over" visual effect
+		_divContext.style.display = 'none';
+		_divContext.style.left = event.clientX + scrollLeft + 'px';
+		_divContext.style.top = event.clientY + scrollTop + 'px';
+		_divContext.style.display = 'block';
+
+		_replaceContext = false;
+
+		return false;
+	}
+}
+
+
+//function DisableContext()
+//{
+//	_noContext = true;
+//	CloseContext();
+//	$('aEnable').style.display = '';
+//
+//	return false;
+//}
+
+//function EnableContext()
+//{
+//	_noContext = false;
+//	_mouseOverContext = false; // this gets left enabled when "disable menus" is chosen
+//	$('aEnable').style.display = 'none';
+//
+//	return false;
+//}
+
+// comes from prototype.js; this is simply easier on the eyes and fingers
+function $(id)
+{
+	return document.getElementById(id);
+}
+		
+	</script>
+</body>
+</html>

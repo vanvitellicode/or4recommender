@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:sLocation>782</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:anID>-0.5829343199382835</j.2:anID>
+    <j.2:eLocation>788</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>strade</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>780</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>786</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:annotationText>al</j.2:annotationText>
+    <j.2:sLocation>1095</j.2:sLocation>
+    <j.2:eLocation>1097</j.2:eLocation>
+    <j.2:hasFakeEndOffset>1095</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>1093</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Fogna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:anID>-0.1724718916808828</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:hasConcept>Fogna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasConcept>Pavimenti,Tecniche_Edilizie,0</j.2:hasConcept>
+    <j.2:anID>-1.5642687107136852</j.2:anID>
+    <j.2:eLocation>753</j.2:eLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>751</j.2:hasFakeEndOffset>
+    <j.2:sLocation>731</j.2:sLocation>
+    <j.2:annotationText>variamente pavimentati</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasFakeStartOffset>729</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+    <j.2:hasConcept>Tecniche_Edilizie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasFakeStartOffset>1009</j.2:hasFakeStartOffset>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:sLocation>1011</j.2:sLocation>
+    <j.2:anID>0.7827083215260647</j.2:anID>
+    <j.2:annotationText>era predisposta una conduttura sotterranea, con funzione di fogna pubblica preposta al regolare deflusso delle acque</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Fogna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>1125</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>1127</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Fogna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:annotationText>strade antiche</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-0.8028762770777979</j.2:anID>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>17</j.2:hasFakeEndOffset>
+    <j.2:eLocation>17</j.2:eLocation>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:annotationText>in prossimit? di incroci di grandi blocchi squadrati, sporgenti rispetto alla pavimentazione, funzionali all?attraversamento pedonale</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>965</j.2:eLocation>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>attraversamenti_pedonali,Vie,0</j.2:hasConcept>
+    <j.2:sLocation>832</j.2:sLocation>
+    <j.2:hasFakeEndOffset>963</j.2:hasFakeEndOffset>
+    <j.2:anID>-0.028339863804193833</j.2:anID>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>830</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>attraversamenti_pedonali</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:annotationText>per ultimo era posto il pavimento della strada</j.2:annotationText>
+    <j.2:hasColor>192,192,192</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Lastricato,Pavimenti,0</j.2:hasConcept>
+    <j.2:eLocation>330</j.2:eLocation>
+    <j.2:sLocation>284</j.2:sLocation>
+    <j.2:anID>0.0548124159687269</j.2:anID>
+    <j.2:hasFakeStartOffset>283</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>329</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Lastricato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasFakeEndOffset>705</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>663</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>0.6667848045837613</j.2:anID>
+    <j.2:eLocation>707</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:sLocation>665</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>erano accompagnate da marciapiedi pedonali</j.2:annotationText>
+    <j.2:hasConcept>Marciapiedi,Vie,0</j.2:hasConcept>
+    <j.2:hasConcept>Marciapiedi</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:sLocation>332</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>395</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>costituito in genere da lastre poligonali di calcare combacianti</j.2:annotationText>
+    <j.2:anID>0.01799586190725414</j.2:anID>
+    <j.2:hasFakeStartOffset>331</j.2:hasFakeStartOffset>
+    <j.2:eLocation>396</j.2:eLocation>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>anch?essi lastricati</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>726</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>706</j.2:hasFakeStartOffset>
+    <j.2:sLocation>708</j.2:sLocation>
+    <j.2:anID>0.040473870918889925</j.2:anID>
+    <j.2:hasColor>192,192,192</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>728</j.2:eLocation>
+    <j.2:hasConcept>Lastricato,Pavimenti,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Lastricato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.2:hasFakeStartOffset>644</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>646</j.2:sLocation>
+    <j.2:hasConcept>Basolato,Pavimenti,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>652</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:hasFakeEndOffset>650</j.2:hasFakeEndOffset>
+    <j.2:annotationText>strade</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-0.42117438865642776</j.2:anID>
+    <j.2:hasConcept>Basolato</j.2:hasConcept>
+    <j.2:hasConcept>Pavimenti</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

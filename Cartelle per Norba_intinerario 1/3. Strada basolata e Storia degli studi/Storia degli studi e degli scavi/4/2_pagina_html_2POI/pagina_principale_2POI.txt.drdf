@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>353</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>363</j.2:hasFakeEndOffset>
+    <j.2:annotationText>E. Dodwell</j.2:annotationText>
+    <j.2:anID>-1.4360159198487277</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Edward_Dodwell,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>354</j.2:sLocation>
+    <j.2:eLocation>364</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Edward_Dodwell</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Luigi_Canina,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>344</j.2:hasFakeEndOffset>
+    <j.2:hasColor>155,245,110</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>336</j.2:sLocation>
+    <j.2:eLocation>345</j.2:eLocation>
+    <j.2:annotationText>L. Canina</j.2:annotationText>
+    <j.2:anID>0.732593338923038</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>335</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Luigi_Canina</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasFakeStartOffset>316</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>John_Michael_Knapp,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>326</j.2:hasFakeEndOffset>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:eLocation>327</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>J.M. Knapp</j.2:annotationText>
+    <j.2:anID>-1.018923049946485</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>317</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>John_Michael_Knapp</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:annotationText>Museo Nazionale Romano</j.2:annotationText>
+    <j.2:hasConcept>Roma_Museo_Nazionale_Romano,Musei,0</j.2:hasConcept>
+    <j.2:anID>1.5229784483155395</j.2:anID>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>640</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>618</j.2:hasFakeStartOffset>
+    <j.2:sLocation>620</j.2:sLocation>
+    <j.2:eLocation>642</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Roma_Museo_Nazionale_Romano</j.2:hasConcept>
+    <j.2:hasConcept>Musei</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:eLocation>488</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Raniero_Mengarelli,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:annotationText>Raniero Mengarelli</j.2:annotationText>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasFakeStartOffset>468</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>486</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>470</j.2:sLocation>
+    <j.2:anID>1.4258728958177533</j.2:anID>
+    <j.2:hasConcept>Raniero_Mengarelli</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasFakeStartOffset>450</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>465</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Luigi_Savignoni,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-0.2154637249491442</j.2:anID>
+    <j.2:sLocation>452</j.2:sLocation>
+    <j.2:annotationText>Luigi Savignoni</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>467</j.2:eLocation>
+    <j.2:hasConcept>Luigi_Savignoni</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasConcept>John_Izard_Middleton,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:annotationText>J.I Middleton</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>294</j.2:hasFakeStartOffset>
+    <j.2:anID>0.5457797378267346</j.2:anID>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:eLocation>308</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>295</j.2:sLocation>
+    <j.2:hasFakeEndOffset>307</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>John_Izard_Middleton</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>0.4055595767360395</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>837</j.2:eLocation>
+    <j.2:hasFakeEndOffset>835</j.2:hasFakeEndOffset>
+    <j.2:sLocation>832</j.2:sLocation>
+    <j.2:hasFakeStartOffset>830</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>149</j.2:hasFakeEndOffset>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>145</j.2:sLocation>
+    <j.2:hasFakeStartOffset>144</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>150</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>Norba</j.2:annotationText>
+    <j.2:anID>-0.5553212531626671</j.2:anID>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>128</j.2:eLocation>
+    <j.2:sLocation>123</j.2:sLocation>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>122</j.2:hasFakeStartOffset>
+    <j.2:anID>0.5796674066304908</j.2:anID>
+    <j.2:hasFakeEndOffset>127</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:hasFakeStartOffset>275</j.2:hasFakeStartOffset>
+    <j.2:anID>-0.20740484057656755</j.2:anID>
+    <j.2:hasFakeEndOffset>285</j.2:hasFakeEndOffset>
+    <j.2:sLocation>276</j.2:sLocation>
+    <j.2:eLocation>286</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>G.R. Volpi</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Giuseppe_Rocco_Volpi,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:hasConcept>Giuseppe_Rocco_Volpi</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

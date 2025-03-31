@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.1:hasComment />
+    <j.1:hasConcept>Basolato,Pavimenti,0</j.1:hasConcept>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>2044</j.1:topX>
+    <j.1:annotationHeight>50</j.1:annotationHeight>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:topY>682</j.1:topY>
+    <j.1:annotationWidth>98</j.1:annotationWidth>
+    <j.1:annotationText>norba_basolato</j.1:annotationText>
+    <j.1:botomX>2142</j.1:botomX>
+    <j.1:anID>2.101314929759277</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:bottomY>732</j.1:bottomY>
+    <j.1:hasConcept>Basolato</j.1:hasConcept>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasComment />
+    <j.1:hasConcept>Pozzi,Opere_idriche,0</j.1:hasConcept>
+    <j.1:botomX>1503</j.1:botomX>
+    <j.1:topX>1418</j.1:topX>
+    <j.1:anID>-0.5683961132251485</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>1576</j.1:topY>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationWidth>85</j.1:annotationWidth>
+    <j.1:annotationText>norba_pozzo</j.1:annotationText>
+    <j.1:bottomY>1647</j.1:bottomY>
+    <j.1:annotationHeight>71</j.1:annotationHeight>
+    <j.1:hasConcept>Pozzi</j.1:hasConcept>
+    <j.1:hasConcept>Opere_idriche</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.1:annotationText>norba_strada_porta_ninfina</j.1:annotationText>
+    <j.1:topX>1302</j.1:topX>
+    <j.1:bottomY>611</j.1:bottomY>
+    <j.1:annotationWidth>85</j.1:annotationWidth>
+    <j.1:hasColor>50,250,100</j.1:hasColor>
+    <j.1:hasConcept>Norba_strada_per_Porta_Ninfina,Vie,0</j.1:hasConcept>
+    <j.1:anID>1.4770286966856534</j.1:anID>
+    <j.1:annotationHeight>76</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:botomX>1387</j.1:botomX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:topY>535</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_strada_per_Porta_Ninfina</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>2946</j.1:topX>
+    <j.1:bottomY>1777</j.1:bottomY>
+    <j.1:hasContent />
+    <j.1:hasConcept>Piazzole,Vie,0</j.1:hasConcept>
+    <j.1:annotationText>norba_piazzola</j.1:annotationText>
+    <j.1:annotationHeight>81</j.1:annotationHeight>
+    <j.1:botomX>3013</j.1:botomX>
+    <j.1:topY>1696</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>1.5541085820442155</j.1:anID>
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasComment />
+    <j.1:annotationWidth>67</j.1:annotationWidth>
+    <j.1:hasConcept>Piazzole</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:59/Media">
+    <j.1:annotationHeight>49</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>-0.28282206191769543</j.1:anID>
+    <j.1:bottomY>370</j.1:bottomY>
+    <j.1:hasColor>255,100,100</j.1:hasColor>
+    <j.1:hasConcept>Marciapiedi,Vie,0</j.1:hasConcept>
+    <j.1:hasContent />
+    <j.1:topX>904</j.1:topX>
+    <j.1:topY>321</j.1:topY>
+    <j.1:annotationText>norba_marciapiede</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:annotationWidth>67</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:botomX>971</j.1:botomX>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasConcept>Marciapiedi</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

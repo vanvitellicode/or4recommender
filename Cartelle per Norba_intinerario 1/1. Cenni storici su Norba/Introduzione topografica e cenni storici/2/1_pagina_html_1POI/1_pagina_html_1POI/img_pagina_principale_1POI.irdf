@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:2/Media">
+    <j.1:annotationWidth>17</j.1:annotationWidth>
+    <j.1:botomX>369</j.1:botomX>
+    <j.1:annotationHeight>16</j.1:annotationHeight>
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:topX>352</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:bottomY>299</j.1:bottomY>
+    <j.1:anID>-1.2441229902955473</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topY>283</j.1:topY>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:2/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationText>norba_centro_moderno</j.1:annotationText>
+    <j.1:bottomY>96</j.1:bottomY>
+    <j.1:botomX>381</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:topY>78</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>-0.11715636791966107</j.1:anID>
+    <j.1:topX>368</j.1:topX>
+    <j.1:annotationHeight>18</j.1:annotationHeight>
+    <j.1:annotationWidth>13</j.1:annotationWidth>
+    <j.1:hasComment />
+    <j.1:hasConcept>Norma,Centri_moderni,0</j.1:hasConcept>
+    <j.1:hasConcept>Norma</j.1:hasConcept>
+    <j.1:hasConcept>Centri_moderni</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:2/Media">
+    <j.1:annotationText>norba_museo_civico</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>0.8692879421002829</j.1:anID>
+    <j.1:topY>109</j.1:topY>
+    <j.1:annotationHeight>18</j.1:annotationHeight>
+    <j.1:hasContent />
+    <j.1:hasConcept>Norma_MuseoCivico,Musei,0</j.1:hasConcept>
+    <j.1:bottomY>127</j.1:bottomY>
+    <j.1:botomX>334</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:annotationWidth>19</j.1:annotationWidth>
+    <j.1:topX>315</j.1:topX>
+    <j.1:hasColor>255,100,255</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasConcept>Norma_MuseoCivico</j.1:hasConcept>
+    <j.1:hasConcept>Musei</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

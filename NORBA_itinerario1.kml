@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NORBA_itinerario1</name>
+	<gx:CascadingStyle kml:id="__managed_style_0D5C41B625296F935616">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1270967FD8296F935615">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_08B3856F26296F935615">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1270967FD8296F935615</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D5C41B625296F935616</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="031682544F296F93560C">
+		<name>1. Cenni storici su Norba</name>
+		<LookAt>
+			<longitude>12.96511151882232</longitude>
+			<latitude>41.58892578628164</latitude>
+			<altitude>432.819828923818</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>96.13010736461547</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.9650711208197,41.58895328166343,434.273293460908</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B6562E835296F94D2B3">
+		<name>2. &quot;Porta Maggiore&quot; e le mura di Norba</name>
+		<LookAt>
+			<longitude>12.96435184733073</longitude>
+			<latitude>41.59007837710761</latitude>
+			<altitude>446.0968136031789</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>83.767772689298</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96428216894507,41.59002912990431,448.2992210017675</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04A9B32DDF296F95C5AE">
+		<name>3. Strada basolata e Storia degli studi</name>
+		<LookAt>
+			<longitude>12.96400568909905</longitude>
+			<latitude>41.59052484084093</latitude>
+			<altitude>449.126212161346</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>49.98270741213675</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96387060365504,41.59055280205895,450.9581991018269</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B5BA4C7E3296F9937EB">
+		<name>4. Asse stradale e domus XII</name>
+		<LookAt>
+			<longitude>12.96329921053986</longitude>
+			<latitude>41.59079283502397</latitude>
+			<altitude>457.2371074410625</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>152.0330573924184</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.9628680881832,41.59103680225529,460.0016228090328</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="088E6AF64C296F9C4267">
+		<name>5. La II traversa e topografia della città</name>
+		<LookAt>
+			<longitude>12.9629773414189</longitude>
+			<latitude>41.59101485393136</latitude>
+			<altitude>458.9229710845665</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>187.6806455821315</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96246172989019,41.5911459656974,460.2653817118367</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04C2B3BC49296F9D76EF">
+		<name>6. Domus VI</name>
+		<LookAt>
+			<longitude>12.96289816545046</longitude>
+			<latitude>41.59077917405902</latitude>
+			<altitude>460.2172405108485</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>186.3863852562827</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.9623348192633,41.59077977116847,458.6233131184968</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D6F33294B296F9DBC73">
+		<name>7. Domus V</name>
+		<LookAt>
+			<longitude>12.96289816543639</longitude>
+			<latitude>41.59077917405902</latitude>
+			<altitude>460.2172405108485</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>186.386408433882</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96219272975166,41.590683627078,457.8568190149575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08C4CEBE9F296F9E1678">
+		<name>8. Domus IV</name>
+		<LookAt>
+			<longitude>12.96289816542228</longitude>
+			<latitude>41.59077917405902</latitude>
+			<altitude>460.2172216465121</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>186.3864432002811</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96208480591895,41.59053786987684,457.421454053168</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0280BFB5FB296F9EFE52">
+		<name>9. Asse di attraversamento urbano (e domus VIII e domus IX)</name>
+		<LookAt>
+			<longitude>12.96222011210367</longitude>
+			<latitude>41.59043107436626</latitude>
+			<altitude>460.3411666176528</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>90.75124711479475</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96178634290493,41.59037803737998,453.9160779415747</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="041D4BBCB2296FA192CD">
+		<name>10. Strada per &quot;Porta Ninfina&quot;</name>
+		<LookAt>
+			<longitude>12.96139450032281</longitude>
+			<latitude>41.59059049115449</latitude>
+			<altitude>452.1473584699356</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>98.94505577885866</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96122241706003,41.59057742962999,451.2621018911979</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="05DBAF2582296FA21E6C">
+		<name>11. Domus X</name>
+		<LookAt>
+			<longitude>12.96139450035098</longitude>
+			<latitude>41.59059049115448</latitude>
+			<altitude>452.1473584699356</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>98.94505577885866</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96156460026913,41.59072913468805,454.3479696678681</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03A30A69C0296FA2A941">
+		<name>12. Complesso termale</name>
+		<LookAt>
+			<longitude>12.96046485107616</longitude>
+			<latitude>41.59113399856302</latitude>
+			<altitude>453.6766058163175</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>164.2053879025844</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96002661201964,41.59134447997965,457.0983743260483</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0BEDAC3B00296FA50628">
+		<name>13. Strada per il Santuario di Giunone</name>
+		<LookAt>
+			<longitude>12.95901917643267</longitude>
+			<latitude>41.59125593968307</latitude>
+			<altitude>454.0666971238128</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>173.2715376681517</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.9590485686624,41.59143564564671,454.7609802390709</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0787A38B92296FA5CBF3">
+		<name>14. Tempio di Giunone Lucina</name>
+		<LookAt>
+			<longitude>12.95781072001223</longitude>
+			<latitude>41.59027729220499</latitude>
+			<altitude>448.4082258929616</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>117.8750935135577</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.95773205929719,41.59038095620792,450.4171580882224</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09EBD7B325296FA66A74">
+		<name>15. Terrazza Santuario di Giunone</name>
+		<LookAt>
+			<longitude>12.9577618856986</longitude>
+			<latitude>41.59018272400508</latitude>
+			<altitude>447.3782852938941</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>168.2670999471884</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.95766151733458,41.5901414372568,447.2705046796058</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B29970C21296FA75624">
+		<name>16. Asse stradale principale (verso l&apos;Acropoli Minore)</name>
+		<LookAt>
+			<longitude>12.96210475563655</longitude>
+			<latitude>41.59019111287554</latitude>
+			<altitude>455.7317630620799</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>118.3197905236739</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96197779517485,41.59025910070969,454.934286137704</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D9257488A296FA7FB57">
+		<name>17. Domus II e I </name>
+		<LookAt>
+			<longitude>12.96238146812687</longitude>
+			<latitude>41.59014027998788</latitude>
+			<altitude>458.83781911391</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>175.5527697075377</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96234182317841,41.58998353916449,458.8059916913598</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03936D12F4296FA8C220">
+		<name>18. Acropoli Minore</name>
+		<LookAt>
+			<longitude>12.96282017112206</longitude>
+			<latitude>41.58994580121307</latitude>
+			<altitude>466.3249706986539</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>168.0656170759539</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96281015781652,41.58989819199751,466.4322275820875</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="072B79949A296FA90F23">
+		<name>19. Tempio Maggiore</name>
+		<LookAt>
+			<longitude>12.96282017109388</longitude>
+			<latitude>41.58994580118136</latitude>
+			<altitude>466.3249707000685</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>168.0656170759539</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96308848802502,41.58975108825967,464.0863449440967</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A91030F46296FA96105">
+		<name>20. Tempio Minore</name>
+		<LookAt>
+			<longitude>12.96282017106571</longitude>
+			<latitude>41.58994580114967</latitude>
+			<altitude>466.3249707000685</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>168.0656170759539</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96297786237796,41.59007383437388,467.5912673901938</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056C4B7F40296FA9EF0C">
+		<name>21. I traversa (dall&apos;Acropoli Minore)</name>
+		<LookAt>
+			<longitude>12.96271406333161</longitude>
+			<latitude>41.59049346264687</latitude>
+			<altitude>462.1086284284978</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>172.281946885887</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_08B3856F26296F935615</styleUrl>
+		<Point>
+			<coordinates>12.96277444651886,41.59065703345509,461.4477300861918</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

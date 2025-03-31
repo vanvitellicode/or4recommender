@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:botomX>155</j.1:botomX>
+    <j.1:topY>752</j.1:topY>
+    <j.1:hasComment />
+    <j.1:hasConcept>Norba_Casa_dei_delfini,Domus,0</j.1:hasConcept>
+    <j.1:annotationText>norba_casadelfini</j.1:annotationText>
+    <j.1:bottomY>840</j.1:bottomY>
+    <j.1:hasColor>0,255,0</j.1:hasColor>
+    <j.1:topX>92</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>63</j.1:annotationWidth>
+    <j.1:annotationHeight>88</j.1:annotationHeight>
+    <j.1:anID>-0.4520650838509807</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Casa_dei_delfini</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:topY>1334</j.1:topY>
+    <j.1:bottomY>1397</j.1:bottomY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:annotationHeight>63</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:anID>-0.5288614132440561</j.1:anID>
+    <j.1:topX>388</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>44</j.1:annotationWidth>
+    <j.1:botomX>432</j.1:botomX>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:annotationHeight>59</j.1:annotationHeight>
+    <j.1:bottomY>646</j.1:bottomY>
+    <j.1:hasColor>255,100,100</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>504</j.1:topX>
+    <j.1:hasConcept>Norba_Casa_delle_arule,Domus,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:annotationWidth>78</j.1:annotationWidth>
+    <j.1:anID>-0.6772876679841161</j.1:anID>
+    <j.1:topY>587</j.1:topY>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_casaarule</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:botomX>582</j.1:botomX>
+    <j.1:hasConcept>Norba_Casa_delle_arule</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:annotationHeight>82</j.1:annotationHeight>
+    <j.1:bottomY>1082</j.1:bottomY>
+    <j.1:hasConcept>Basolato,Pavimenti,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:annotationWidth>77</j.1:annotationWidth>
+    <j.1:topX>1106</j.1:topX>
+    <j.1:anID>0.11431223577937748</j.1:anID>
+    <j.1:botomX>1183</j.1:botomX>
+    <j.1:topY>1000</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationText>norba_basolato</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:hasConcept>Basolato</j.1:hasConcept>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:topX>752</j.1:topX>
+    <j.1:annotationWidth>43</j.1:annotationWidth>
+    <j.1:botomX>795</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Casa_grande_impluvium,Domus,0</j.1:hasConcept>
+    <j.1:topY>539</j.1:topY>
+    <j.1:annotationHeight>48</j.1:annotationHeight>
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:annotationText>norba_casagrandeimpluvium</j.1:annotationText>
+    <j.1:bottomY>587</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:anID>0.6386486428164695</j.1:anID>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba_Casa_grande_impluvium</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topY>1174</j.1:topY>
+    <j.1:hasConcept>Marciapiedi,Vie,0</j.1:hasConcept>
+    <j.1:annotationHeight>73</j.1:annotationHeight>
+    <j.1:topX>2148</j.1:topX>
+    <j.1:bottomY>1247</j.1:bottomY>
+    <j.1:annotationText>norba_marciapiede</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:annotationWidth>58</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:anID>-0.522154003064027</j.1:anID>
+    <j.1:botomX>2206</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Marciapiedi</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:annotationHeight>116</j.1:annotationHeight>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:bottomY>820</j.1:bottomY>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>2419</j.1:botomX>
+    <j.1:anID>1.69198084564206</j.1:anID>
+    <j.1:topX>2352</j.1:topX>
+    <j.1:annotationText>norba_insediamentourbano</j.1:annotationText>
+    <j.1:annotationWidth>67</j.1:annotationWidth>
+    <j.1:topY>704</j.1:topY>
+    <j.1:hasComment />
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:55/Media">
+    <j.1:annotationWidth>92</j.1:annotationWidth>
+    <j.1:hasConcept>Norba_strade_secondarie,Vie,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationText>norba_stradesecondarie</j.1:annotationText>
+    <j.1:hasColor>140,230,100</j.1:hasColor>
+    <j.1:bottomY>1363</j.1:bottomY>
+    <j.1:hasContent />
+    <j.1:botomX>1411</j.1:botomX>
+    <j.1:topX>1319</j.1:topX>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>1256</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:anID>1.147872838683541</j.1:anID>
+    <j.1:annotationHeight>107</j.1:annotationHeight>
+    <j.1:hasConcept>Norba_strade_secondarie</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

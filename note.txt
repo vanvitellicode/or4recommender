@@ -1,0 +1,15 @@
+# starting_canvas = filtered_canvas[int(choiced_canvas)]
+    # print("Starting Canvas: "+str(starting_canvas))
+    # start_time_on_actual_canvas = time.time()
+    # starting_canvas = "ext_mara.https://cosme.unicampania.it/rasta/norba/7-TERME/index.json/canvas/1"
+    # test_canvas = "ext_mara.https://cosme.unicampania.it/rasta/norba/7-TERME/index.json/canvas/5"
+    # user_maria_anna.preferences = update_profile_preferences(starting_canvas, user_maria_anna)
+
+    # canvas_counter_in_pearl += 1
+    # user_maria_anna.preferences = update_profile_preferences(test_canvas, user_maria_anna)
+    # canvas_counter_in_pearl += 1
+    
+    # suggested_canvas = get_next_canvas(starting_canvas, sample_route, actual_pearl, canvas_counter_in_pearl, user_maria_anna, 0)
+    # print("The nearest canvas, between all are: ")
+    # for i,fc in enumerate(suggested_canvas):
+    #     print(str(i)+")"+str(fc))

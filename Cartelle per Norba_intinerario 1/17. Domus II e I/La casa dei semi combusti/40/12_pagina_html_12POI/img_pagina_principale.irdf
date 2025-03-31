@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasColor>255,255,0</j.1:hasColor>
+    <j.1:topX>1238</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationText>norba_atrium</j.1:annotationText>
+    <j.1:bottomY>1161</j.1:bottomY>
+    <j.1:botomX>1280</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:anID>-0.14236008290404809</j.1:anID>
+    <j.1:annotationWidth>42</j.1:annotationWidth>
+    <j.1:annotationHeight>74</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:topY>1087</j.1:topY>
+    <j.1:hasConcept>Norba_Domus_1,Domus,0</j.1:hasConcept>
+    <j.1:hasConcept>Norba_Domus_1</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:annotationHeight>69</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:topY>1254</j.1:topY>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationText>norba_cubiculum</j.1:annotationText>
+    <j.1:hasConcept>Cubiculum,Parti_Domus,0</j.1:hasConcept>
+    <j.1:topX>2474</j.1:topX>
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:annotationWidth>70</j.1:annotationWidth>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:anID>-0.8720626953136644</j.1:anID>
+    <j.1:bottomY>1323</j.1:bottomY>
+    <j.1:botomX>2544</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Cubiculum</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasConcept>Vestibulum,Parti_Domus,0</j.1:hasConcept>
+    <j.1:topY>1397</j.1:topY>
+    <j.1:hasColor>140,230,100</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>0.7702447748952749</j.1:anID>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_vestibulum</j.1:annotationText>
+    <j.1:bottomY>1425</j.1:bottomY>
+    <j.1:annotationHeight>28</j.1:annotationHeight>
+    <j.1:botomX>1469</j.1:botomX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topX>1432</j.1:topX>
+    <j.1:annotationWidth>37</j.1:annotationWidth>
+    <j.1:hasConcept>Vestibulum</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:anID>-0.4349204277174716</j.1:anID>
+    <j.1:topY>1189</j.1:topY>
+    <j.1:hasComment />
+    <j.1:hasColor>255,255,0</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Domus_1,Domus,0</j.1:hasConcept>
+    <j.1:bottomY>1254</j.1:bottomY>
+    <j.1:annotationHeight>65</j.1:annotationHeight>
+    <j.1:topX>1928</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:botomX>1997</j.1:botomX>
+    <j.1:annotationWidth>69</j.1:annotationWidth>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_domus2</j.1:annotationText>
+    <j.1:hasConcept>Norba_Domus_1</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:botomX>775</j.1:botomX>
+    <j.1:annotationText>norba_culina</j.1:annotationText>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topX>729</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>-0.23868328992211557</j.1:anID>
+    <j.1:hasConcept>Culina,Parti_Domus,0</j.1:hasConcept>
+    <j.1:topY>1175</j.1:topY>
+    <j.1:annotationHeight>60</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:bottomY>1235</j.1:bottomY>
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:hasComment />
+    <j.1:annotationWidth>46</j.1:annotationWidth>
+    <j.1:hasConcept>Culina</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:anID>-0.2974667535377005</j.1:anID>
+    <j.1:topY>1022</j.1:topY>
+    <j.1:botomX>2321</j.1:botomX>
+    <j.1:bottomY>1064</j.1:bottomY>
+    <j.1:annotationHeight>42</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasConcept>Ala,Parti_Domus,0</j.1:hasConcept>
+    <j.1:topX>2238</j.1:topX>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:annotationText>norba_ala</j.1:annotationText>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationWidth>83</j.1:annotationWidth>
+    <j.1:hasConcept>Ala</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasConcept>Ala,Parti_Domus,0</j.1:hasConcept>
+    <j.1:botomX>1081</j.1:botomX>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>1064</j.1:bottomY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topX>1025</j.1:topX>
+    <j.1:annotationWidth>56</j.1:annotationWidth>
+    <j.1:annotationHeight>37</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:topY>1027</j.1:topY>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_ala</j.1:annotationText>
+    <j.1:anID>-0.610487173393192</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Ala</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:topX>1599</j.1:topX>
+    <j.1:annotationHeight>42</j.1:annotationHeight>
+    <j.1:bottomY>1203</j.1:bottomY>
+    <j.1:hasConcept>Cisterna,Opere_idriche,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>0.1516100836732496</j.1:anID>
+    <j.1:hasColor>235,250,50</j.1:hasColor>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationText>norba_cisterna</j.1:annotationText>
+    <j.1:botomX>1622</j.1:botomX>
+    <j.1:hasContent />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topY>1161</j.1:topY>
+    <j.1:annotationWidth>23</j.1:annotationWidth>
+    <j.1:hasConcept>Cisterna</j.1:hasConcept>
+    <j.1:hasConcept>Opere_idriche</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:topX>1585</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>1346</j.1:topY>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:anID>0.9672117989003478</j.1:anID>
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:annotationWidth>37</j.1:annotationWidth>
+    <j.1:hasConcept>Soglia,Elementi_Architettonici,0</j.1:hasConcept>
+    <j.1:annotationHeight>37</j.1:annotationHeight>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_soglia</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasComment />
+    <j.1:bottomY>1383</j.1:bottomY>
+    <j.1:botomX>1622</j.1:botomX>
+    <j.1:hasConcept>Soglia</j.1:hasConcept>
+    <j.1:hasConcept>Elementi_Architettonici</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasColor>255,255,0</j.1:hasColor>
+    <j.1:bottomY>2004</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasContent />
+    <j.1:topX>2104</j.1:topX>
+    <j.1:annotationHeight>116</j.1:annotationHeight>
+    <j.1:annotationText>norba_insediamentiurbani</j.1:annotationText>
+    <j.1:annotationWidth>83</j.1:annotationWidth>
+    <j.1:botomX>2187</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:anID>-0.5611810813985149</j.1:anID>
+    <j.1:topY>1888</j.1:topY>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasColor>240,90,130</j.1:hasColor>
+    <j.1:botomX>1395</j.1:botomX>
+    <j.1:annotationWidth>23</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>1372</j.1:topX>
+    <j.1:hasContent />
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:annotationHeight>19</j.1:annotationHeight>
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:anID>-1.0968732039957991</j.1:anID>
+    <j.1:bottomY>1379</j.1:bottomY>
+    <j.1:topY>1360</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasComment />
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasConcept>Marciapiedi,Vie,0</j.1:hasConcept>
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:annotationWidth>65</j.1:annotationWidth>
+    <j.1:topX>1942</j.1:topX>
+    <j.1:topY>1517</j.1:topY>
+    <j.1:botomX>2007</j.1:botomX>
+    <j.1:anID>-0.6239340686221453</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationText>norba_marciapiede</j.1:annotationText>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>1555</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>38</j.1:annotationHeight>
+    <j.1:hasConcept>Marciapiedi</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topY>1522</j.1:topY>
+    <j.1:hasContent />
+    <j.1:anID>-1.354087584601238</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationHeight>28</j.1:annotationHeight>
+    <j.1:annotationWidth>60</j.1:annotationWidth>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba_strada_principale,Vie,0</j.1:hasConcept>
+    <j.1:annotationText>norba_stradaprincipale</j.1:annotationText>
+    <j.1:botomX>159</j.1:botomX>
+    <j.1:topX>99</j.1:topX>
+    <j.1:bottomY>1550</j.1:bottomY>
+    <j.1:hasConcept>Norba_strada_principale</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>1138</j.1:bottomY>
+    <j.1:annotationWidth>28</j.1:annotationWidth>
+    <j.1:topX>1590</j.1:topX>
+    <j.1:annotationHeight>28</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:botomX>1618</j.1:botomX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>-0.09267405967562187</j.1:anID>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_impluvium</j.1:annotationText>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:topY>1110</j.1:topY>
+    <j.1:hasConcept>Impluvium,Parti_Domus,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Impluvium</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>1471</j.1:topY>
+    <j.1:annotationText>norba_cocciopesto</j.1:annotationText>
+    <j.1:topX>1145</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationHeight>46</j.1:annotationHeight>
+    <j.1:bottomY>1517</j.1:bottomY>
+    <j.1:annotationWidth>56</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>1201</j.1:botomX>
+    <j.1:hasConcept>Cocciopesto,Pavimenti,0</j.1:hasConcept>
+    <j.1:hasColor>50,250,100</j.1:hasColor>
+    <j.1:hasComment />
+    <j.1:anID>-0.33638826912859154</j.1:anID>
+    <j.1:hasConcept>Cocciopesto</j.1:hasConcept>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:40/Media">
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:bottomY>1314</j.1:bottomY>
+    <j.1:anID>-0.13052766253154457</j.1:anID>
+    <j.1:botomX>1497</j.1:botomX>
+    <j.1:annotationText>norba_fauces</j.1:annotationText>
+    <j.1:hasContent />
+    <j.1:annotationWidth>28</j.1:annotationWidth>
+    <j.1:annotationHeight>28</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:topX>1469</j.1:topX>
+    <j.1:topY>1286</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:hasConcept>Fauces,Parti_Domus,0</j.1:hasConcept>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasConcept>Fauces</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

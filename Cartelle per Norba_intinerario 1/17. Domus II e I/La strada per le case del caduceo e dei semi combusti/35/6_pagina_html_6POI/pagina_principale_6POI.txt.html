@@ -1,0 +1,367 @@
+<html xmlns:gepson="xalan://com.xslt.Organize" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/document#" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:java="http://xml.apache.org/xalan/java">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+            .cmenu {margin: 0; padding: 0.3em; list-style-type: none; background-color: white;} 
+            .cmenu li:hover {} .cmenu hr {border: 0; border-bottom: 1px solid grey; margin: 3px 0px 3px 0px; width: 10em;} 
+            .cmenu a {border: 0 !important;} .cmenu a:hover {text-decoration: underline !important;} 
+            .cmenu .topSep {font-size: 90%; border-top: 1px solid gray; margin-top: 0.3em; padding-top: 0.3em;}
+            </style>
+<script type="text/javascript">
+function myOver(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#00FF00";
+        }
+	}
+function myOut(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#FFFFFF";
+        }
+	}
+	function toggleCheck(t){
+	if(document.getElementById(t).checked == true)
+	document.getElementById(t).checked = false;
+	else document.getElementById(t).checked = true;
+}
+ 
+function checkAndGo()
+{
+	var controllo=0;
+	var controllo_radio=false;
+	var concetto;
+	var concetti=new Array();
+	//bisogna scartare i due radio button e i bottoni dal for!!!
+	for (i=0;i<document.forms[0].elements.length-4;i++){
+		if(document.forms[0].elements[i].checked)
+		controllo++;
+	}
+	if(controllo==0){
+		alert("Select at least one concept!");
+		return false;
+	}
+	
+	else if(controllo>1){
+		for (j=0;j<document.forms[0].operator.length;j++) {
+			if (document.forms[0].operator[j].checked) {
+				controllo_radio=true;
+			}
+		}
+		if(!controllo_radio){
+			alert("Select operator!");
+		    return false;
+		}
+	}
+	
+	if (controllo==1){
+		for (k=0;k<document.forms[0].elements.length-4;k++){
+			if(document.forms[0].elements[k].checked)
+			concetto=document.forms[0].elements[k].id;
+		}
+             //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		window.location = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+encodeURIComponent(concetto)+'%22%0A%7D';
+		return false;
+		}
+		if (controllo>1){
+			for (j=0;j<document.forms[0].elements.length-4;j++){
+				if(document.forms[0].elements[j].checked){
+					concetti.push(document.forms[0].elements[j].id);
+				}
+			}
+			var operatore;
+			var query_in;
+			var query_pre='http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A';
+			var query_post='%0A%7D';
+			for (q=0;q<document.forms[0].operator.length;q++) {
+			    if (document.forms[0].operator[q].checked) 
+				operatore = document.forms[0].operator[q].value;
+			}
+			
+			if(operatore=='AND'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					else {
+						query_in=query_in+'%20%2E%20'+'%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					}
+				}
+			}
+			if(operatore=='OR'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					else {
+						query_in=query_in+'%20UNION%20'+'%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					}
+				}
+			}
+			var query = query_pre+query_in+query_post;
+			window.location = query;
+		    return false;
+		
+		}
+}
+
+
+	
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td>
+<form onsubmit="return checkAndGo()" method="get" action="">
+<ul>
+<li>
+<input type="checkbox" name="1" id="Calcare"><a href="javascript:toggleCheck('Calcare');" class="lk" onmouseover="myOver(
+		                 [0.5436685233600864,1.0964963725108126]);" onmouseout="myOut(
+		                 [0.5436685233600864,1.0964963725108126]);">Calcare</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="2" id="Pietra"><a href="javascript:toggleCheck('Pietra');" class="lk" onmouseover="myOver(
+		                 [0.5436685233600864,1.0964963725108126]);" onmouseout="myOut(
+		                 [0.5436685233600864,1.0964963725108126]);">Pietra</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="3" id="Norba_strada_per_Acropoli_minore"><a href="javascript:toggleCheck('Norba_strada_per_Acropoli_minore');" class="lk" onmouseover="myOver(
+		                 [1.2951328879445267]);" onmouseout="myOut(
+		                 [1.2951328879445267]);">Norba_strada_per_Acropoli_minore</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="4" id="Vie"><a href="javascript:toggleCheck('Vie');" class="lk" onmouseover="myOver(
+		                 [1.2951328879445267,0.8594368214525441,-1.3455230816788653,1.5513260138961789,0.44270299411141956,-0.5662497535438669,0.5961599602463107,2.032968437117955,1.4552078287321015,-1.2745956362700275]);" onmouseout="myOut(
+		                 [1.2951328879445267,0.8594368214525441,-1.3455230816788653,1.5513260138961789,0.44270299411141956,-0.5662497535438669,0.5961599602463107,2.032968437117955,1.4552078287321015,-1.2745956362700275]);">Vie</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="5" id="Norba_strada_per_Santuario_Giunone"><a href="javascript:toggleCheck('Norba_strada_per_Santuario_Giunone');" class="lk" onmouseover="myOver(
+		                 [0.8594368214525441]);" onmouseout="myOut(
+		                 [0.8594368214525441]);">Norba_strada_per_Santuario_Giunone</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="6" id="Norba_strada_principale"><a href="javascript:toggleCheck('Norba_strada_principale');" class="lk" onmouseover="myOver(
+		                 [-1.3455230816788653]);" onmouseout="myOut(
+		                 [-1.3455230816788653]);">Norba_strada_principale</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="7" id="Norba_strade_secondarie"><a href="javascript:toggleCheck('Norba_strade_secondarie');" class="lk" onmouseover="myOver(
+		                 [1.5513260138961789]);" onmouseout="myOut(
+		                 [1.5513260138961789]);">Norba_strade_secondarie</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="8" id="Viabilita"><a href="javascript:toggleCheck('Viabilita');" class="lk" onmouseover="myOver(
+		                 [0.44270299411141956,0.5961599602463107,-1.2745956362700275]);" onmouseout="myOut(
+		                 [0.44270299411141956,0.5961599602463107,-1.2745956362700275]);">Viabilita</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="9" id="Norba_Domus_1"><a href="javascript:toggleCheck('Norba_Domus_1');" class="lk" onmouseover="myOver(
+		                 [-0.23889838762147192,-0.6244574796802069]);" onmouseout="myOut(
+		                 [-0.23889838762147192,-0.6244574796802069]);">Norba_Domus_1</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="10" id="Basolato"><a href="javascript:toggleCheck('Basolato');" class="lk" onmouseover="myOver(
+		                 [0.7680919736650542]);" onmouseout="myOut(
+		                 [0.7680919736650542]);">Basolato</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="11" id="Pavimenti"><a href="javascript:toggleCheck('Pavimenti');" class="lk" onmouseover="myOver(
+		                 [0.7680919736650542]);" onmouseout="myOut(
+		                 [0.7680919736650542]);">Pavimenti</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="12" id="Marciapiedi"><a href="javascript:toggleCheck('Marciapiedi');" class="lk" onmouseover="myOver(
+		                 [-0.5662497535438669,1.4552078287321015]);" onmouseout="myOut(
+		                 [-0.5662497535438669,1.4552078287321015]);">Marciapiedi</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="13" id="Piazzole"><a href="javascript:toggleCheck('Piazzole');" class="lk" onmouseover="myOver(
+		                 [2.032968437117955]);" onmouseout="myOut(
+		                 [2.032968437117955]);">Piazzole</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="14" id="Soglia"><a href="javascript:toggleCheck('Soglia');" class="lk" onmouseover="myOver(
+		                 [1.3342597804964604]);" onmouseout="myOut(
+		                 [1.3342597804964604]);">Soglia</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="15" id="Elementi_Architettonici"><a href="javascript:toggleCheck('Elementi_Architettonici');" class="lk" onmouseover="myOver(
+		                 [1.3342597804964604]);" onmouseout="myOut(
+		                 [1.3342597804964604]);">Elementi_Architettonici</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="16" id="Norba_Domus_2"><a href="javascript:toggleCheck('Norba_Domus_2');" class="lk" onmouseover="myOver(
+		                 [1.0922478204638255]);" onmouseout="myOut(
+		                 [1.0922478204638255]);">Norba_Domus_2</a>
+</li>
+<br>
+</ul>
+<input value="Update Profile" type="submit">
+<table>
+<tr>
+<td>
+<ul>
+<li>
+<input type="radio" name="operator" value="AND">AND</li>
+<li>
+<input type="radio" name="operator" value="OR">OR</li>
+</ul>
+</td><td><input type="submit" value="Semantic Search"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<div>
+<p>
+<h3>La <span style="background-color: #FFFFFF" id="0.8594368214525441"><a href="#">strada per le case del caduceo<span style="background-color: #FFFFFF" id="-0.23889838762147192"> e dei semi</span> combusti</a></span>
+</h3>Gli isolati del settore meridionale della città appaiono scanditi da <span style="background-color: #FFFFFF" id="-1.2745956362700275"><a href="#">strade</a></span> che, parallele tra loro, collegano <span style="background-color: #FFFFFF" id="0.5961599602463107"><a href="#">la via proveniente da Porta Maggiore</a></span> <span style="background-color: #FFFFFF" id="-1.3455230816788653"><a href="#">con l’asse viario principale della città</a></span>. <span style="background-color: #FFFFFF" id="1.5513260138961789"><a href="#">Questa strada costituisce la prima traversa</a></span> e conduce alle <span style="background-color: #FFFFFF" id="1.0922478204638255"><a href="#">case dei semi combusti</a></span> e <span style="background-color: #FFFFFF" id="-0.6244574796802069"><a href="#">del caduceo</a></span>. La via realizzata a schiena d’asino (la sagoma a "schiena d'asino", cioè con parte centrale rialzata o convessa, tipica delle <span style="background-color: #FFFFFF" id="0.44270299411141956"><a href="#">strade</a></span> antiche, serviva a favorire il deflusso dell'acqua verso le canalette poste ai lati della strada), in origine <span style="background-color: #FFFFFF" id="0.7680919736650542"><a href="#">era pavimentata, per tutto il percorso, con basoli in <span style="background-color: #FFFFFF" id="1.0964963725108126"><a href="#">calcare</a></span></a></span>, che oggi si conservano in due settori. <span style="background-color: #FFFFFF" id="1.4552078287321015"><a href="#">Nel primo tratto, proveniente da nord, la strada appare più stretta perché priva di marciapiedi</a></span>; poi <span style="background-color: #FFFFFF" id="2.032968437117955"><a href="#">si amplia con un grande slargo</a></span>, dal quale si dirama, ad oriente, <span style="background-color: #FFFFFF" id="1.2951328879445267"><a href="#">la strada che conduce all’Acropoli Minore</a></span>. <span style="background-color: #FFFFFF" id="-0.5662497535438669"><a href="#">Nel secondo tratto, mostra marciapiede sul lato orientale</a></span>; <span style="background-color: #FFFFFF" id="1.3342597804964604"><a href="#">una soglia</a></span> in <span style="background-color: #FFFFFF" id="0.5436685233600864"><a href="#">calcare</a></span> con binario centrale, suggerisce la presenza lungo la via di una bottega, probabilmente affiancata da una casa.   
+
+</p>
+</div>
+</td>
+</tr>
+</table>
+<div style="border: 1px solid blue; display: none; position: absolute" id="divContext">
+<ul class="cmenu">
+<li>
+<a target="_blank" href="#" id="aContextNav">Search related contents</a>
+</li>
+</ul>
+</div>
+<script type="text/javascript" language="JavaScript">
+                   
+var _replaceContext = false;		// replace the system context menu?
+var _mouseOverContext = false;		// is the mouse over the context menu?
+var _noContext = false;				// disable the context menu?
+var _divContext = $('divContext');	// makes my life easier
+
+InitContext();
+
+function InitContext()
+{
+	_divContext.onmouseover = function() { _mouseOverContext = true; };
+	_divContext.onmouseout = function() { _mouseOverContext = false; };
+
+	//$('aDisable').onclick = DisableContext;
+	//$('aEnable').onclick = EnableContext;
+
+	document.body.onmousedown = ContextMouseDown;
+	document.body.oncontextmenu = ContextShow;
+}
+
+// call from the onMouseDown event, passing the event if standards compliant
+function ContextMouseDown(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	// only show the context menu if the right mouse button is pressed
+	//   and a hyperlink has been clicked (the code can be made more selective)
+	if (event.button != 2 && target.tagName.toLowerCase() == 'a' && target.className != 'lk'){
+	    target.href="http://www.google.com/search?q="+target.innerHTML;
+	    target.target="_blank";
+	    }
+	if (event.button == 2 && target.tagName.toLowerCase() == 'a' && target.className == 'lk')
+		_replaceContext = true;
+	else if (!_mouseOverContext)
+		_divContext.style.display = 'none';
+}
+
+function CloseContext()
+{
+	_mouseOverContext;
+	_divContext.style.display = 'none';
+}
+
+// call from the onContextMenu event, passing the event
+// if this function returns false, the browser's context menu will not show up
+function ContextShow(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	if (_replaceContext)
+	{
+              //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		$('aContextNav').href = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+
+			encodeURIComponent(target.innerHTML)+'%22%0A%7D';
+		//$('aAddWebmark').href = 'http://luke.breuer.com/webmark/?addurl=' +
+		//	encodeURIComponent(target.href) + '&title=' +
+		//	encodeURIComponent(target.innerHTML);
+		
+		// document.body.scrollTop does not work in IE
+		var scrollTop = document.body.scrollTop ? document.body.scrollTop :
+			document.documentElement.scrollTop;
+		var scrollLeft = document.body.scrollLeft ? document.body.scrollLeft :
+			document.documentElement.scrollLeft;
+
+		// hide the menu first to avoid an "up-then-over" visual effect
+		_divContext.style.display = 'none';
+		_divContext.style.left = event.clientX + scrollLeft + 'px';
+		_divContext.style.top = event.clientY + scrollTop + 'px';
+		_divContext.style.display = 'block';
+
+		_replaceContext = false;
+
+		return false;
+	}
+}
+
+
+//function DisableContext()
+//{
+//	_noContext = true;
+//	CloseContext();
+//	$('aEnable').style.display = '';
+//
+//	return false;
+//}
+
+//function EnableContext()
+//{
+//	_noContext = false;
+//	_mouseOverContext = false; // this gets left enabled when "disable menus" is chosen
+//	$('aEnable').style.display = 'none';
+//
+//	return false;
+//}
+
+// comes from prototype.js; this is simply easier on the eyes and fingers
+function $(id)
+{
+	return document.getElementById(id);
+}
+		
+	</script>
+</body>
+</html>

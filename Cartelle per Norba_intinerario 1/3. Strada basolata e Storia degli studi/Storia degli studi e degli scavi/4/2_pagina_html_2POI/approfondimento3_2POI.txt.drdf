@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>12</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>32</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>31</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>John_Michael_Knapp,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:anID>0.324403473994623</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:annotationText>Johann Michael Knapp</j.2:annotationText>
+    <j.2:hasFakeStartOffset>11</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>John_Michael_Knapp</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

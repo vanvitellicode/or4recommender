@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:hasComment />
+    <j.1:hasConcept>Basolato,Pavimenti,0</j.1:hasConcept>
+    <j.1:bottomY>2015</j.1:bottomY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>136</j.1:annotationHeight>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:topX>1112</j.1:topX>
+    <j.1:annotationWidth>65</j.1:annotationWidth>
+    <j.1:botomX>1177</j.1:botomX>
+    <j.1:anID>0.6128382709891301</j.1:anID>
+    <j.1:annotationText>norba_basolato</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topY>1879</j.1:topY>
+    <j.1:hasConcept>Basolato</j.1:hasConcept>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:anID>0.5627805229173607</j.1:anID>
+    <j.1:annotationWidth>78</j.1:annotationWidth>
+    <j.1:annotationText>norba_viabilit?</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:annotationHeight>100</j.1:annotationHeight>
+    <j.1:botomX>847</j.1:botomX>
+    <j.1:topY>1850</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>769</j.1:topX>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasColor>255,100,255</j.1:hasColor>
+    <j.1:bottomY>1950</j.1:bottomY>
+    <j.1:hasConcept>Viabilita,Beni_immobili,0</j.1:hasConcept>
+    <j.1:hasConcept>Viabilita</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:anID>-0.06318734822767742</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>93</j.1:annotationHeight>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:topY>1313</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:bottomY>1406</j.1:bottomY>
+    <j.1:botomX>2171</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:hasConcept>Piazzole,Vie,0</j.1:hasConcept>
+    <j.1:topX>2114</j.1:topX>
+    <j.1:annotationWidth>57</j.1:annotationWidth>
+    <j.1:annotationText>norba_piazzola</j.1:annotationText>
+    <j.1:hasConcept>Piazzole</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>1428</j.1:bottomY>
+    <j.1:hasConcept>Marciapiedi,Vie,0</j.1:hasConcept>
+    <j.1:anID>0.0505149469168705</j.1:anID>
+    <j.1:annotationWidth>79</j.1:annotationWidth>
+    <j.1:hasComment />
+    <j.1:botomX>1728</j.1:botomX>
+    <j.1:annotationText>norba_marciapiedi</j.1:annotationText>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:topY>1306</j.1:topY>
+    <j.1:annotationHeight>122</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topX>1649</j.1:topX>
+    <j.1:hasConcept>Marciapiedi</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:annotationText>norba_insediamento</j.1:annotationText>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>863</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:bottomY>984</j.1:bottomY>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topX>1828</j.1:topX>
+    <j.1:anID>1.1381039093684326</j.1:anID>
+    <j.1:hasComment />
+    <j.1:annotationHeight>121</j.1:annotationHeight>
+    <j.1:annotationWidth>157</j.1:annotationWidth>
+    <j.1:botomX>1985</j.1:botomX>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:34/Media">
+    <j.1:bottomY>1736</j.1:bottomY>
+    <j.1:annotationWidth>121</j.1:annotationWidth>
+    <j.1:topY>1614</j.1:topY>
+    <j.1:topX>1456</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>1577</j.1:botomX>
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:hasConcept>Strada_di_Porta_Maggiore,Vie,0</j.1:hasConcept>
+    <j.1:annotationText>norba_stradadiportamaggiore</j.1:annotationText>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:anID>0.49749866371462914</j.1:anID>
+    <j.1:annotationHeight>122</j.1:annotationHeight>
+    <j.1:hasConcept>Strada_di_Porta_Maggiore</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

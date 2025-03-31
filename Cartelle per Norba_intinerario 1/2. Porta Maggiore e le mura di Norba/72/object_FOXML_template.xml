@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--********************************************************************************************************************-->
+<!-- FOXML 1.1 INGEST EXAMPLE:                                                                                          -->
+<!-- This is an example of a FOXML object as it should be encoded for ingest in the repository.  Note that attributes   -->
+<!-- that are automatically assigned by the Fedora repository are omitted.  Notable ommissions are the created and last -->
+<!-- modified dates in the object properties, the created date, size, and versionable attributes on datastreams.        -->
+<!--********************************************************************************************************************-->
+<!-- NOTE!!  Please see the FOXML Reference Example object linked from the "Introduction to FOXML" document in the      -->
+<!-- Fedora System Documentation.  This will give an element-by-element explanation of a FOXML instance document.       -->
+<!--********************************************************************************************************************-->
+<foxml:digitalObject xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="1.1" PID="Prist:72" xsi:schemaLocation="info:fedora/fedora-system:def/foxml#                                          http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="A" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="3_pagina_html_3POI" />
+  </foxml:objectProperties>
+  <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X">
+    <foxml:datastreamVersion FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" ID="DC.0" MIMETYPE="text/xml" LABEL="Dublin Core Record for this object">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:title>3_pagina_html_3POI</dc:title>
+          <dc:creator>Prist</dc:creator>
+          <dc:publisher>default</dc:publisher>
+          <dc:description>Le mura</dc:description>
+          <dc:identifier>Prist:72</dc:identifier>
+          <dc:type>HTML</dc:type>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="RELS-INT" CONTROL_GROUP="X" STATE="A">
+    <foxml:datastreamVersion ID="RELS-INT.0" MIMETYPE="text/xml" LABEL="Annotation of this object">
+      <foxml:xmlContent><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasFakeStartOffset>218</j.2:hasFakeStartOffset>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:sLocation>219</j.2:sLocation>
+    <j.2:eLocation>234</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>233</j.2:hasFakeEndOffset>
+    <j.2:annotationText>Alta quasi 15 m</j.2:annotationText>
+    <j.2:hasConcept>Norba_loggia,Opere_difensive,0</j.2:hasConcept>
+    <j.2:anID>0.004298563533552412</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_loggia</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>1.2199141726835079</j.2:anID>
+    <j.2:eLocation>43</j.2:eLocation>
+    <j.2:hasFakeEndOffset>42</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:sLocation>17</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>16</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_loggia,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>grande torre quadrangolare</j.2:annotationText>
+    <j.2:hasConcept>Norba_loggia</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>0.2730561432292567</j.2:anID>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:sLocation>47</j.2:sLocation>
+    <j.2:hasFakeEndOffset>62</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>opera poligonale</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>46</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Opera_poligonale,Murature,0</j.2:hasConcept>
+    <j.2:eLocation>63</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Opera_poligonale</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>mura</j.2:annotationText>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>-0.013076967932968442</j.2:anID>
+    <j.2:hasConcept>Norba_Mura,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>94</j.2:hasFakeStartOffset>
+    <j.2:eLocation>99</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>95</j.2:sLocation>
+    <j.2:hasFakeEndOffset>98</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_Mura</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>-0.6068560507176031</j.2:anID>
+    <j.2:hasFakeStartOffset>103</j.2:hasFakeStartOffset>
+    <j.2:eLocation>118</j.2:eLocation>
+    <j.2:sLocation>104</j.2:sLocation>
+    <j.2:hasFakeEndOffset>117</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>Porta Maggiore</j.2:annotationText>
+    <j.2:hasColor>0,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Porta_Maggiore,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba_Porta_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasConcept>Norba_loggia,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>9</j.2:eLocation>
+    <j.2:anID>1.5158916468760362</j.2:anID>
+    <j.2:annotationText>Loggia</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>60,155,15</j.2:hasColor>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>9</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_loggia</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:sLocation>213</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-0.5556448837366557</j.2:anID>
+    <j.2:hasFakeEndOffset>216</j.2:hasFakeEndOffset>
+    <j.2:annotationText>mura</j.2:annotationText>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>212</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Mura,Opere_difensive,0</j.2:hasConcept>
+    <j.2:eLocation>217</j.2:eLocation>
+    <j.2:hasConcept>Norba_Mura</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>-0.7114089549235943</j.2:anID>
+    <j.2:eLocation>178</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Opere_difensive,Beni_immobili,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>136</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>costruita con scopi di strategia difensiva</j.2:annotationText>
+    <j.2:hasFakeEndOffset>177</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>135</j.2:hasFakeStartOffset>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasConcept>Norba_Porta_Signina,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasColor>192,192,192</j.2:hasColor>
+    <j.2:sLocation>121</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>134</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>133</j.2:hasFakeEndOffset>
+    <j.2:annotationText>Porta Signina</j.2:annotationText>
+    <j.2:hasFakeStartOffset>120</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>0.35220573193478255</j.2:anID>
+    <j.2:hasConcept>Norba_Porta_Signina</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:hasComment />
+    <j.1:topX>67</j.1:topX>
+    <j.1:bottomY>56</j.1:bottomY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationWidth>31</j.1:annotationWidth>
+    <j.1:anID>-0.749159192292018</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:topY>31</j.1:topY>
+    <j.1:botomX>98</j.1:botomX>
+    <j.1:annotationText>norba_insediamento</j.1:annotationText>
+    <j.1:annotationHeight>25</j.1:annotationHeight>
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:anID>0.7095750153766293</j.1:anID>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_mura</j.1:annotationText>
+    <j.1:topX>181</j.1:topX>
+    <j.1:bottomY>123</j.1:bottomY>
+    <j.1:annotationWidth>14</j.1:annotationWidth>
+    <j.1:annotationHeight>15</j.1:annotationHeight>
+    <j.1:hasConcept>Norba_Mura,Opere_difensive,0</j.1:hasConcept>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>108</j.1:topY>
+    <j.1:hasColor>0,255,255</j.1:hasColor>
+    <j.1:botomX>195</j.1:botomX>
+    <j.1:hasConcept>Norba_Mura</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topY>195</j.1:topY>
+    <j.1:hasConcept>Opere_difensive,Beni_immobili,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:anID>-2.0386159817089387</j.1:anID>
+    <j.1:annotationText>norba_loggia</j.1:annotationText>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasContent />
+    <j.1:bottomY>218</j.1:bottomY>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:annotationWidth>24</j.1:annotationWidth>
+    <j.1:topX>316</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationHeight>23</j.1:annotationHeight>
+    <j.1:botomX>340</j.1:botomX>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:bottomY>161</j.1:bottomY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:anID>-0.8027739285016531</j.1:anID>
+    <j.1:annotationWidth>15</j.1:annotationWidth>
+    <j.1:botomX>274</j.1:botomX>
+    <j.1:topX>259</j.1:topX>
+    <j.1:topY>146</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Opera_poligonale,Murature,0</j.1:hasConcept>
+    <j.1:annotationHeight>15</j.1:annotationHeight>
+    <j.1:annotationText>norba_opera_poligonale</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:hasColor>150,200,200</j.1:hasColor>
+    <j.1:hasConcept>Opera_poligonale</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:annotationWidth>16</j.1:annotationWidth>
+    <j.1:topX>449</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topY>93</j.1:topY>
+    <j.1:annotationText>norba_opere_difensive</j.1:annotationText>
+    <j.1:bottomY>110</j.1:bottomY>
+    <j.1:hasContent />
+    <j.1:anID>0.37065701845000903</j.1:anID>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:hasConcept>Opere_difensive,Beni_immobili,0</j.1:hasConcept>
+    <j.1:botomX>465</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationHeight>17</j.1:annotationHeight>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:hasComment />
+    <j.1:hasConcept>Opera_poligonale,Murature,0</j.1:hasConcept>
+    <j.1:annotationHeight>17</j.1:annotationHeight>
+    <j.1:bottomY>174</j.1:bottomY>
+    <j.1:botomX>890</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>36</j.1:annotationWidth>
+    <j.1:hasColor>150,200,200</j.1:hasColor>
+    <j.1:annotationText>norba_opera_poligonale</j.1:annotationText>
+    <j.1:topY>157</j.1:topY>
+    <j.1:topX>854</j.1:topX>
+    <j.1:anID>-0.057680463825562155</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Opera_poligonale</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:botomX>740</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:topX>704</j.1:topX>
+    <j.1:bottomY>229</j.1:bottomY>
+    <j.1:hasConcept>Opere_difensive,Beni_immobili,0</j.1:hasConcept>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationWidth>36</j.1:annotationWidth>
+    <j.1:topY>210</j.1:topY>
+    <j.1:annotationHeight>19</j.1:annotationHeight>
+    <j.1:anID>-1.4785990508328923</j.1:anID>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:annotationText>norba_opera_difensiva</j.1:annotationText>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:anID>0.954243830489715</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>88</j.1:topY>
+    <j.1:annotationText>norba_III_aC</j.1:annotationText>
+    <j.1:bottomY>126</j.1:bottomY>
+    <j.1:annotationWidth>24</j.1:annotationWidth>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:hasConcept>III_aC,Datazione_al_secolo,0</j.1:hasConcept>
+    <j.1:topX>1033</j.1:topX>
+    <j.1:annotationHeight>38</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:botomX>1057</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasConcept>III_aC</j.1:hasConcept>
+    <j.1:hasConcept>Datazione_al_secolo</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>32</j.1:annotationHeight>
+    <j.1:topX>1186</j.1:topX>
+    <j.1:annotationText>norba_IV_aC</j.1:annotationText>
+    <j.1:hasColor>235,250,50</j.1:hasColor>
+    <j.1:hasConcept>IV_aC,Datazione_al_secolo,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:bottomY>77</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:botomX>1219</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:topY>45</j.1:topY>
+    <j.1:anID>0.8797951172777241</j.1:anID>
+    <j.1:annotationWidth>33</j.1:annotationWidth>
+    <j.1:hasConcept>IV_aC</j.1:hasConcept>
+    <j.1:hasConcept>Datazione_al_secolo</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:botomX>438</j.1:botomX>
+    <j.1:annotationHeight>32</j.1:annotationHeight>
+    <j.1:hasConcept>Posterula,Tipologia_Porte,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:annotationText>norba_posterula</j.1:annotationText>
+    <j.1:bottomY>436</j.1:bottomY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topX>417</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:topY>404</j.1:topY>
+    <j.1:annotationWidth>21</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>-0.21846482460183433</j.1:anID>
+    <j.1:hasConcept>Posterula</j.1:hasConcept>
+    <j.1:hasConcept>Tipologia_Porte</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:annotationText>norba_insediamento</j.1:annotationText>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationHeight>31</j.1:annotationHeight>
+    <j.1:topX>206</j.1:topX>
+    <j.1:bottomY>290</j.1:bottomY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>235</j.1:botomX>
+    <j.1:anID>-0.03115451546982817</j.1:anID>
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:hasComment />
+    <j.1:topY>259</j.1:topY>
+    <j.1:annotationWidth>29</j.1:annotationWidth>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.1:topX>581</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Mura,Opere_difensive,0</j.1:hasConcept>
+    <j.1:hasContent />
+    <j.1:bottomY>314</j.1:bottomY>
+    <j.1:annotationWidth>28</j.1:annotationWidth>
+    <j.1:botomX>609</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:annotationHeight>22</j.1:annotationHeight>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topY>292</j.1:topY>
+    <j.1:anID>-0.28303386402907743</j.1:anID>
+    <j.1:annotationText>norba_mura</j.1:annotationText>
+    <j.1:hasColor>0,255,255</j.1:hasColor>
+    <j.1:hasConcept>Norba_Mura</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasFakeStartOffset>384</j.2:hasFakeStartOffset>
+    <j.2:hasColor>140,230,100</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>0.6488867639321382</j.2:anID>
+    <j.2:annotationText>quattro porte</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>399</j.2:eLocation>
+    <j.2:hasFakeEndOffset>397</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Tipologia_Porte,Opere_difensive,0</j.2:hasConcept>
+    <j.2:sLocation>386</j.2:sLocation>
+    <j.2:hasConcept>Tipologia_Porte</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>221</j.2:sLocation>
+    <j.2:hasFakeEndOffset>224</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>Norba</j.2:annotationText>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:eLocation>226</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasFakeStartOffset>219</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>0.11041893561349123</j.2:anID>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>-0.11829323728557271</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>465</j.2:sLocation>
+    <j.2:eLocation>469</j.2:eLocation>
+    <j.2:annotationText>mura</j.2:annotationText>
+    <j.2:hasFakeStartOffset>462</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>466</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_Mura,Opere_difensive,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasConcept>Norba_Mura</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:eLocation>446</j.2:eLocation>
+    <j.2:hasFakeEndOffset>444</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>437</j.2:sLocation>
+    <j.2:hasConcept>Posterula,Tipologia_Porte,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>posterule</j.2:annotationText>
+    <j.2:anID>2.0693876947615704</j.2:anID>
+    <j.2:hasColor>190,170,130</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>435</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Posterula</j.2:hasConcept>
+    <j.2:hasConcept>Tipologia_Porte</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>1.7495571894906072</j.2:anID>
+    <j.2:hasFakeEndOffset>175</j.2:hasFakeEndOffset>
+    <j.2:eLocation>176</j.2:eLocation>
+    <j.2:hasConcept>Opera_poligonale,Murature,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>opera poligonale</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>160</j.2:sLocation>
+    <j.2:hasFakeStartOffset>159</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Opera_poligonale</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasFakeEndOffset>208</j.2:hasFakeEndOffset>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:annotationText>fortificazioni delle citt?</j.2:annotationText>
+    <j.2:eLocation>209</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Opere_difensive,Beni_immobili,0</j.2:hasConcept>
+    <j.2:anID>1.5367353698858217</j.2:anID>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:sLocation>183</j.2:sLocation>
+    <j.2:hasFakeStartOffset>182</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:hasFakeEndOffset>838</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>220,200,135</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-0.7401168501595662</j.2:anID>
+    <j.2:annotationText>III secolo a.C</j.2:annotationText>
+    <j.2:hasFakeStartOffset>824</j.2:hasFakeStartOffset>
+    <j.2:eLocation>842</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>828</j.2:sLocation>
+    <j.2:hasConcept>III_aC,Datazione_al_secolo,0</j.2:hasConcept>
+    <j.2:hasConcept>III_aC</j.2:hasConcept>
+    <j.2:hasConcept>Datazione_al_secolo</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:anID>0.4070129635478749</j.2:anID>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:eLocation>805</j.2:eLocation>
+    <j.2:annotationText>IV secolo a.C</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>801</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>792</j.2:sLocation>
+    <j.2:hasFakeStartOffset>788</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>IV_aC,Datazione_al_secolo,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>IV_aC</j.2:hasConcept>
+    <j.2:hasConcept>Datazione_al_secolo</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:72/Media">
+    <j.2:annotationText>tra le pi? famose dell?Italia antica</j.2:annotationText>
+    <j.2:anID>0.520054930571363</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>64</j.2:sLocation>
+    <j.2:hasFakeStartOffset>63</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>99</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasConcept>Norba_Mura,Opere_difensive,0</j.2:hasConcept>
+    <j.2:eLocation>100</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Mura</j.2:hasConcept>
+    <j.2:hasConcept>Opere_difensive</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF></foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream CONTROL_GROUP="E" ID="Media" STATE="A">
+    <foxml:datastreamVersion ID="Media.0" MIMETYPE="application/x-compressed" LABEL="Media of this object">
+      <foxml:contentLocation REF="http://parsec2.unina2.it/~pristweb/contents/72/3_pagina_html_3POI.zip" TYPE="URL" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.1:topY>392</j.1:topY>
+    <j.1:hasComment />
+    <j.1:hasConcept>bacino_di_raccolta,Terme,0</j.1:hasConcept>
+    <j.1:botomX>1095</j.1:botomX>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:bottomY>424</j.1:bottomY>
+    <j.1:anID>0.05262226448289028</j.1:anID>
+    <j.1:annotationHeight>32</j.1:annotationHeight>
+    <j.1:annotationWidth>24</j.1:annotationWidth>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:annotationText>norba_bacino_raccolta</j.1:annotationText>
+    <j.1:topX>1071</j.1:topX>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>bacino_di_raccolta</j.1:hasConcept>
+    <j.1:hasConcept>Terme</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.1:annotationHeight>24</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:bottomY>494</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:botomX>58</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>36</j.1:annotationWidth>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:topX>22</j.1:topX>
+    <j.1:topY>470</j.1:topY>
+    <j.1:anID>-0.5770270567104173</j.1:anID>
+    <j.1:hasConcept>Opera_cementizia,Murature,0</j.1:hasConcept>
+    <j.1:annotationText>norba_terme</j.1:annotationText>
+    <j.1:hasConcept>Opera_cementizia</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.1:annotationWidth>39</j.1:annotationWidth>
+    <j.1:annotationHeight>24</j.1:annotationHeight>
+    <j.1:hasConcept>Opera_cementizia,Murature,0</j.1:hasConcept>
+    <j.1:topY>344</j.1:topY>
+    <j.1:topX>26</j.1:topX>
+    <j.1:hasComment />
+    <j.1:anID>-0.731100718823682</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:bottomY>368</j.1:bottomY>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:botomX>65</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Opera_cementizia</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>560</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:botomX>1024</j.1:botomX>
+    <j.1:annotationHeight>31</j.1:annotationHeight>
+    <j.1:hasConcept>Opera_incerta,Murature,0</j.1:hasConcept>
+    <j.1:bottomY>591</j.1:bottomY>
+    <j.1:annotationWidth>26</j.1:annotationWidth>
+    <j.1:topX>998</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_opera_incerta</j.1:annotationText>
+    <j.1:anID>-1.7560392101706743</j.1:anID>
+    <j.1:hasColor>255,100,255</j.1:hasColor>
+    <j.1:hasConcept>Opera_incerta</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.1:bottomY>426</j.1:bottomY>
+    <j.1:topY>392</j.1:topY>
+    <j.1:hasConcept>Opera_cementizia,Murature,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationWidth>31</j.1:annotationWidth>
+    <j.1:annotationText>norba_opera_cementizia</j.1:annotationText>
+    <j.1:topX>831</j.1:topX>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:anID>-0.6251015745331266</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:annotationHeight>34</j.1:annotationHeight>
+    <j.1:botomX>862</j.1:botomX>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:hasConcept>Opera_cementizia</j.1:hasConcept>
+    <j.1:hasConcept>Murature</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

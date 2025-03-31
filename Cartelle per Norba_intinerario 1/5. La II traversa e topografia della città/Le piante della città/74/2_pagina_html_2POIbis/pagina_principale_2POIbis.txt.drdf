@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:sLocation>381</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>392</j.2:eLocation>
+    <j.2:hasConcept>Schmiedt,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>379</j.2:hasFakeStartOffset>
+    <j.2:annotationText>G. Schmiedt</j.2:annotationText>
+    <j.2:hasFakeEndOffset>390</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>0.3438770406014234</j.2:anID>
+    <j.2:hasConcept>Schmiedt</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:anID>-0.6229071092746543</j.2:anID>
+    <j.2:hasFakeEndOffset>172</j.2:hasFakeEndOffset>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasFakeStartOffset>167</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>168</j.2:sLocation>
+    <j.2:eLocation>173</j.2:eLocation>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:hasFakeStartOffset>393</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:eLocation>408</j.2:eLocation>
+    <j.2:annotationText>F. Castagnoli</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>1.175495091325883</j.2:anID>
+    <j.2:hasConcept>Ferdinando_Castagnoli,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:sLocation>395</j.2:sLocation>
+    <j.2:hasFakeEndOffset>406</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Ferdinando_Castagnoli</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:sLocation>16</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>16</j.2:hasFakeStartOffset>
+    <j.2:eLocation>21</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>2.1481436465876937</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:hasFakeEndOffset>21</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:hasFakeStartOffset>323</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>100,100,255</j.2:hasColor>
+    <j.2:annotationText>A.L. Frothingam</j.2:annotationText>
+    <j.2:hasFakeEndOffset>338</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Arthur_Lincoln_Frothingam,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:eLocation>340</j.2:eLocation>
+    <j.2:anID>0.02939646019385727</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>325</j.2:sLocation>
+    <j.2:hasConcept>Arthur_Lincoln_Frothingam</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:annotationText>L. Quilici</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>433</j.2:hasFakeStartOffset>
+    <j.2:sLocation>435</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-0.059230160920865464</j.2:anID>
+    <j.2:eLocation>445</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>443</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Lorenzo_Quilici,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasConcept>Lorenzo_Quilici</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>0.4687486716328009</j.2:anID>
+    <j.2:hasConcept>Luigi_Savignoni,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:sLocation>259</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>271</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>L. Savignoni</j.2:annotationText>
+    <j.2:hasFakeEndOffset>269</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>257</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Luigi_Savignoni</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:anID>1.2303209840661848</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>272</j.2:hasFakeStartOffset>
+    <j.2:sLocation>274</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>287</j.2:eLocation>
+    <j.2:annotationText>R. Mengarelli</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasConcept>Raniero_Mengarelli,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>285</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Raniero_Mengarelli</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:hasConcept>John_Michael_Knapp,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>1.108928299257534</j.2:anID>
+    <j.2:eLocation>223</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>213</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>215</j.2:sLocation>
+    <j.2:annotationText>G. Knapp</j.2:annotationText>
+    <j.2:hasFakeEndOffset>221</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>John_Michael_Knapp</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:74/Media">
+    <j.2:sLocation>448</j.2:sLocation>
+    <j.2:hasConcept>Stefania_Quilici_Gigli,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:anID>-0.47956334765572195</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasColor>0,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>446</j.2:hasFakeStartOffset>
+    <j.2:annotationText>S. Quilici Gigli</j.2:annotationText>
+    <j.2:eLocation>464</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>462</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Stefania_Quilici_Gigli</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

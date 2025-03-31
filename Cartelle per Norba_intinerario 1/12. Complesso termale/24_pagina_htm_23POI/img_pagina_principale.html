@@ -1,0 +1,474 @@
+<html xmlns:gepson="xalan://com.xslt.Organize" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:java="http://xml.apache.org/xalan/java">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+              .cmenu {margin: 0; padding: 0.3em; list-style-type: none; background-color: white;} 
+              .cmenu li:hover {} .cmenu hr {border: 0; border-bottom: 1px solid grey; margin: 3px 0px 3px 0px; width: 10em;} 
+              .cmenu a {border: 0 !important;} .cmenu a:hover {text-decoration: underline !important;} 
+              .cmenu .topSep {font-size: 90%; border-top: 1px solid gray; margin-top: 0.3em; padding-top: 0.3em;}
+             </style>
+<script src="../../mapper.js" type="text/javascript"></script><script src="../../cvi_map_lib.js" type="text/javascript"></script><script src="../../cvi_tip_lib.js" type="text/javascript"></script><script type="text/javascript">
+
+function ById(v) {return(document.getElementById(v));}
+function myOver(image,area,options)
+{
+   cvi_map.modify(ById(image), options);
+   extAreaOver(image,area);
+	}
+	
+function cake(){
+	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;   
+	if ( GLOBAL_WIDTH > x/1.8)
+             scaleXY('15759652409652002003644434',1.0/1.13);
+             else cvi_map.add(ById('15759652409652002003644434'),{noborder: false, areacolor: '#ff0000', opacity: 0});
+		 }
+
+
+
+window.onload = function() {
+ // place original AREA coordinate strings into a global array, called at load
+        var arrayAreas = document.body.getElementsByTagName("AREA");
+        GLOBAL_WIDTH= document.getElementById('15759652409652002003644434').width; // get original width
+        for(var i = 0; i < arrayAreas.length; i++) {
+              GLOBAL_AREAS[i]= arrayAreas[i].coords;
+        }
+        GLOBAL_COUNT++;
+   
+	cake();
+	
+}
+                
+
+             </script><script type="text/javascript"></script><script type="text/javascript">
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   GLOBAL_COUNT=0;
+   GLOBAL_AREAS= new Array();
+   GLOBAL_WIDTH=1;
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   function scaleXY(elementid,scale){
+      // avoid problems with 0 scales and image becoming so small it does not change size 
+      // I think something breaks in firefox(1) when you shrink so much that all values in an coords= become 0
+      // I think something breaks in iexplore(1) when you shrink so much that all values in an coords= become 0
+      var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight; 
+      myscale=Math.max(0,scale);
+       while (document.getElementById(elementid).width > x/1.8){
+
+      oldwidth=document.getElementById(elementid).width
+      oldheight=document.getElementById(elementid).height
+      newwidth=Math.round(Math.max(oldwidth*myscale,1));
+      newheight=Math.round(Math.max(oldheight*myscale,1));
+      if(oldwidth == newwidth) newwidth=+1;
+      if(oldheight == newheight) newheight=+1;
+      document.getElementById(elementid).width=newwidth;
+      document.getElementById(elementid).height=newheight;
+      scaleArea();
+      }
+//document.write(document.getElementById(elementid).width);
+//document.write(x);
+cvi_map.add(ById('15759652409652002003644434'),{noborder: false, areacolor: '#ff0000', opacity: 0});
+                
+   }
+   
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+//     Assuming one image map in document.
+//     Assuming coordinates are comma-delimited in AREA COORDS= string.
+//     Assuming the same zoom factor for the height as for the width of the image.
+//
+   
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  function scaleArea() {   // using values stored at load, recalculate new values for the current size
+        var arrayAreas = document.body.getElementsByTagName("AREA");
+        for(var i = 0; i < arrayAreas.length; i++) {
+           ii=i+1;
+           rescale= document.getElementById('15759652409652002003644434').width/GLOBAL_WIDTH ;
+           sarray=GLOBAL_AREAS[i].split(",");      // convert coordinates to a numeric array assuming comma-delimited values
+           var rarray =new Array();
+           for(var j = 0; j < sarray.length; j++) {
+              rarray[j]=parseInt(sarray[j])*rescale;  // rescale the values
+              rarray[j]=Math.round(rarray[j]);
+           }
+           //alert( "GLOBAL " + GLOBAL_AREAS[i] + ":" + sarray.length + " SPLIT=" + sarray +rarray.length);  
+           arrayAreas[i].coords=rarray.join(",");    // put the values back into a string
+       }
+        
+   }
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+//||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+function toggleCheck(t){
+	if(document.getElementById(t).checked == true)
+	document.getElementById(t).checked = false;
+	else document.getElementById(t).checked = true;
+}
+ 
+function checkAndGo()
+{
+	var controllo=0;
+	var controllo_radio=false;
+	var concetto;
+	var concetti=new Array();
+	//bisogna scartare i due radio button e i bottoni dal for!!!
+	for (i=0;i<document.forms[0].elements.length-4;i++){
+		if(document.forms[0].elements[i].checked)
+		controllo++;
+	}
+	if(controllo==0){
+		alert("Select at least one concept!");
+		return false;
+	}
+	
+	else if(controllo>1){
+		for (j=0;j<document.forms[0].operator.length;j++) {
+			if (document.forms[0].operator[j].checked) {
+				controllo_radio=true;
+			}
+		}
+		if(!controllo_radio){
+			alert("Select operator!");
+		    return false;
+		}
+	}
+	
+	if (controllo==1){
+		for (k=0;k<document.forms[0].elements.length-4;k++){
+			if(document.forms[0].elements[k].checked)
+			concetto=document.forms[0].elements[k].id;
+		}
+  //2012_06_20 sostituisco j%2E%31%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		window.location = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%31%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%2Fannotation%23%3E%0APREFIX%20j%2E%30%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+encodeURIComponent(concetto)+'%22%0A%7D';
+		return false;
+		}
+		if (controllo>1){
+			for (j=0;j<document.forms[0].elements.length-4;j++){
+				if(document.forms[0].elements[j].checked){
+					concetti.push(document.forms[0].elements[j].id);
+				}
+			}
+			var operatore;
+			var query_in;
+			var query_pre='http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%31%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%2Fannotation%23%3E%0APREFIX%20j%2E%30%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A';
+			var query_post='%0A%7D';
+			for (q=0;q<document.forms[0].operator.length;q++) {
+			    if (document.forms[0].operator[q].checked) 
+				operatore = document.forms[0].operator[q].value;
+			}
+			
+			if(operatore=='AND'){
+				for(p=0;p<concetti.length;p++){
+					//2012_06_20 sostituisco j%2E%31%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+                                        //?a j.1:hasConcept "fgewqg"
+					if (p==0) query_in='%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					else {
+						query_in=query_in+'%20%2E%20'+'%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					}
+				}
+			}
+			if(operatore=='OR'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%31%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.1:hasConcept "fgewqg"
+					if (p==0) query_in='%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					else {
+						query_in=query_in+'%20UNION%20'+'%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					}
+				}
+			}
+			var query = query_pre+query_in+query_post;
+			window.location = query;
+		    return false;
+		
+		}
+}
+
+
+</script>
+<link href="../../tooltip.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<table>
+<tr>
+<td>
+<form onsubmit="return checkAndGo()" method="get" action="">
+<ul>
+<li>
+<input type="checkbox" name="1" id="Apodyterium"><a href="javascript:toggleCheck('Apodyterium');" class="lk" onmouseover="myOver('15759652409652002003644434','1',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','1');">Apodyterium</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="2" id="Terme"><a href="javascript:toggleCheck('Terme');" class="lk" onmouseover="myOver('15759652409652002003644434','2',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','2');">Terme</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="3" id="Beni_immobili"><a href="javascript:toggleCheck('Beni_immobili');" class="lk" onmouseover="myOver('15759652409652002003644434','3',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','3');">Beni_immobili</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="4" id="Laconicum"><a href="javascript:toggleCheck('Laconicum');" class="lk" onmouseover="myOver('15759652409652002003644434','4',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','4');">Laconicum</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="5" id="Tepidarium"><a href="javascript:toggleCheck('Tepidarium');" class="lk" onmouseover="myOver('15759652409652002003644434','5',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','5');">Tepidarium</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="6" id="Norba"><a href="javascript:toggleCheck('Norba');" class="lk" onmouseover="myOver('15759652409652002003644434','6',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','6');">Norba</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="7" id="Insediamenti_Urbani"><a href="javascript:toggleCheck('Insediamenti_Urbani');" class="lk" onmouseover="myOver('15759652409652002003644434','7',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','7');">Insediamenti_Urbani</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="8" id="Opera_incerta"><a href="javascript:toggleCheck('Opera_incerta');" class="lk" onmouseover="myOver('15759652409652002003644434','8',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','8');">Opera_incerta</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="9" id="Murature"><a href="javascript:toggleCheck('Murature');" class="lk" onmouseover="myOver('15759652409652002003644434','9',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','9');">Murature</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="10" id="Opera_cementizia"><a href="javascript:toggleCheck('Opera_cementizia');" class="lk" onmouseover="myOver('15759652409652002003644434','10',{areacolor:'#00ff00'});" onmouseout="extAreaOut('15759652409652002003644434','10');">Opera_cementizia</a>
+</li>
+<br>
+</ul>
+<input value="Update Profile" type="submit">
+<table>
+<tr>
+<td>
+<ul>
+<li>
+<input type="radio" name="operator" value="AND">AND</li>
+<li>
+<input type="radio" name="operator" value="OR">OR</li>
+</ul>
+</td><td><input type="submit" value="Semantic Search"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<div>
+<img id="15759652409652002003644434" src="img_pagina_principale.JPG" width="1575" height="965" usemap="#semanticmap"></div>
+<map name="semanticmap">
+<area shape="rect" coords="540,
+						   463,
+						   562,
+						   485" id="0.5561377027274949" href="#" title="Apodyterium,Terme,0" tooltip="Apodyterium,Terme,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="1073,
+						   590,
+						   1103,
+						   610" id="1.3660423103126793" href="#" title="Terme,Beni_immobili,0" tooltip="Terme,Beni_immobili,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="771,
+						   312,
+						   797,
+						   330" id="-0.04172684233598371" href="#" title="Apodyterium,Terme,0" tooltip="Apodyterium,Terme,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="674,
+						   433,
+						   696,
+						   465" id="0.8512047984263007" href="#" title="Laconicum,Terme,0" tooltip="Laconicum,Terme,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="1107,
+						   467,
+						   1139,
+						   491" id="3.1125977537326803" href="#" title="Tepidarium,Terme,0" tooltip="Tepidarium,Terme,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="21,
+						   899,
+						   69,
+						   926" id="0.9406038822139442" href="#" title="Norba,Insediamenti_Urbani,0" tooltip="Norba,Insediamenti_Urbani,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="1000,
+							  330,
+							  1022,
+							  348" id="1.5482893033787082" href="#" title="Opera_incerta,Murature,0" tooltip="Opera_incerta,Murature,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="1360,
+							  471,
+							  1384,
+							  497" id="1.4131852449481621" href="#" title="Opera_cementizia,Murature,0" tooltip="Opera_cementizia,Murature,0" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);" onmousemove="cvi_tip._move(event);">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="1" rel="0.5561377027274949,-0.04172684233598371">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="2" rel="0.5561377027274949,1.3660423103126793,-0.04172684233598371,0.8512047984263007,3.1125977537326803">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="3" rel="1.3660423103126793">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="4" rel="0.8512047984263007">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="5" rel="3.1125977537326803">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="6" rel="0.9406038822139442">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="7" rel="0.9406038822139442">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="8" rel="1.5482893033787082">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="9" rel="1.5482893033787082,1.4131852449481621">
+<area shape="rect" coords="
+						1,
+					    1,
+					    1,
+						1
+					   " id="10" rel="1.4131852449481621">
+</map>
+</td>
+</tr>
+</table>
+<div style="border: 1px solid blue; display: none; position: absolute" id="divContext">
+<ul class="cmenu">
+<li>
+<a target="_blank" href="#" id="aContextNav">Search related contents</a>
+</li>
+</ul>
+</div>
+<script type="text/javascript" language="JavaScript">
+                   
+var _replaceContext = false;		// replace the system context menu?
+var _mouseOverContext = false;		// is the mouse over the context menu?
+var _noContext = false;				// disable the context menu?
+var _divContext = $('divContext');	// makes my life easier
+
+InitContext();
+
+function InitContext()
+{
+	_divContext.onmouseover = function() { _mouseOverContext = true; };
+	_divContext.onmouseout = function() { _mouseOverContext = false; };
+
+	//$('aDisable').onclick = DisableContext;
+	//$('aEnable').onclick = EnableContext;
+
+	document.body.onmousedown = ContextMouseDown;
+	document.body.oncontextmenu = ContextShow;
+}
+
+// call from the onMouseDown event, passing the event if standards compliant
+function ContextMouseDown(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	// only show the context menu if the right mouse button is pressed
+	//   and a hyperlink has been clicked (the code can be made more selective)
+	if ((event.button == 2 && target.tagName.toLowerCase() == 'a') || (event.button == 2 && target.tagName.toLowerCase() == 'area'))
+		_replaceContext = true;
+	else if (!_mouseOverContext)
+		_divContext.style.display = 'none';
+}
+
+function CloseContext()
+{
+	_mouseOverContext;
+	_divContext.style.display = 'none';
+}
+
+// call from the onContextMenu event, passing the event
+// if this function returns false, the browser's context menu will not show up
+function ContextShow(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	if (_replaceContext)
+	{
+	    if(target.nodeName.toLowerCase()=='a')
+          //2012_06_20 sostituisco j%2E%31%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		$('aContextNav').href = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%31%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%2Fannotation%23%3E%0APREFIX%20j%2E%30%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+
+			encodeURIComponent(target.innerHTML)+'%22%0A%7D';
+		if(target.nodeName.toLowerCase ()=='area')
+			$('aContextNav').href = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%31%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%2Fannotation%23%3E%0APREFIX%20j%2E%30%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fimage%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+
+			encodeURIComponent(target.title)+'%22%0A%7D';
+		//$('aAddWebmark').href = 'http://luke.breuer.com/webmark/?addurl=' +
+		//	encodeURIComponent(target.href) + '&title=' +
+		//	encodeURIComponent(target.innerHTML);
+
+		// document.body.scrollTop does not work in IE
+		var scrollTop = document.body.scrollTop ? document.body.scrollTop :
+			document.documentElement.scrollTop;
+		var scrollLeft = document.body.scrollLeft ? document.body.scrollLeft :
+			document.documentElement.scrollLeft;
+
+		// hide the menu first to avoid an "up-then-over" visual effect
+		_divContext.style.display = 'none';
+		_divContext.style.left = event.clientX + scrollLeft + 'px';
+		_divContext.style.top = event.clientY + scrollTop + 'px';
+		_divContext.style.display = 'block';
+
+		_replaceContext = false;
+
+		return false;
+	}
+}
+
+//function DisableContext()
+//{
+//	_noContext = true;
+//	CloseContext();
+//	$('aEnable').style.display = '';
+//
+//	return false;
+//}
+
+//function EnableContext()
+//{
+//	_noContext = false;
+//	_mouseOverContext = false; // this gets left enabled when "disable menus" is chosen
+//	$('aEnable').style.display = 'none';
+//
+//	return false;
+//}
+
+// comes from prototype.js; this is simply easier on the eyes and fingers
+function $(id)
+{
+	return document.getElementById(id);
+}
+	
+	</script>
+</body>
+</html>

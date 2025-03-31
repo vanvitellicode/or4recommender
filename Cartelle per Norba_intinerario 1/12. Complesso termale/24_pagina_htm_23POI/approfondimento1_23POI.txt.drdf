@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Vedute_antiche,Fonti_iconografiche,0</j.2:hasConcept>
+    <j.2:eLocation>606</j.2:eLocation>
+    <j.2:sLocation>577</j.2:sLocation>
+    <j.2:hasFakeStartOffset>576</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>spaccato di due vani frontali</j.2:annotationText>
+    <j.2:hasFakeEndOffset>605</j.2:hasFakeEndOffset>
+    <j.2:anID>0.1956153843028483</j.2:anID>
+    <j.2:hasConcept>Vedute_antiche</j.2:hasConcept>
+    <j.2:hasConcept>Fonti_iconografiche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:annotationText>Volpi</j.2:annotationText>
+    <j.2:anID>2.0913803943426728</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:hasFakeStartOffset>524</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Giuseppe_Rocco_Volpi,Personaggi_Norba,0</j.2:hasConcept>
+    <j.2:sLocation>525</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>530</j.2:eLocation>
+    <j.2:hasFakeEndOffset>529</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Giuseppe_Rocco_Volpi</j.2:hasConcept>
+    <j.2:hasConcept>Personaggi_Norba</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:sLocation>725</j.2:sLocation>
+    <j.2:hasColor>190,170,130</j.2:hasColor>
+    <j.2:hasFakeStartOffset>724</j.2:hasFakeStartOffset>
+    <j.2:annotationText>edificio termale</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>741</j.2:eLocation>
+    <j.2:hasFakeEndOffset>740</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:anID>-0.7354755622403931</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Edicole_votive,Edifici_sacri,0</j.2:hasConcept>
+    <j.2:hasConcept>Edicole_votive</j.2:hasConcept>
+    <j.2:hasConcept>Edifici_sacri</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

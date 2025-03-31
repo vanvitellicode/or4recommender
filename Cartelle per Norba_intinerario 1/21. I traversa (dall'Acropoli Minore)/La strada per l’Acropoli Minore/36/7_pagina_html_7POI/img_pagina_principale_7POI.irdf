@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:hasComment />
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:botomX>1728</j.1:botomX>
+    <j.1:annotationHeight>79</j.1:annotationHeight>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:bottomY>2437</j.1:bottomY>
+    <j.1:topY>2358</j.1:topY>
+    <j.1:annotationWidth>115</j.1:annotationWidth>
+    <j.1:anID>-2.5403625657827598</j.1:anID>
+    <j.1:topX>1613</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:botomX>2558</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:bottomY>2058</j.1:bottomY>
+    <j.1:hasConcept>Basolato,Pavimenti,0</j.1:hasConcept>
+    <j.1:anID>-1.309778698562774</j.1:anID>
+    <j.1:annotationText>norba_basolato</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>151</j.1:annotationWidth>
+    <j.1:hasColor>155,245,110</j.1:hasColor>
+    <j.1:topY>1900</j.1:topY>
+    <j.1:annotationHeight>158</j.1:annotationHeight>
+    <j.1:topX>2407</j.1:topX>
+    <j.1:hasConcept>Basolato</j.1:hasConcept>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>784</j.1:topY>
+    <j.1:hasConcept>Norba_Acropoli_Minore,Santuari,0</j.1:hasConcept>
+    <j.1:anID>0.6573201736241122</j.1:anID>
+    <j.1:annotationWidth>79</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:bottomY>884</j.1:bottomY>
+    <j.1:annotationText>norba_acropoliminore</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:topX>2021</j.1:topX>
+    <j.1:botomX>2100</j.1:botomX>
+    <j.1:annotationHeight>100</j.1:annotationHeight>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasConcept>Norba_Acropoli_Minore</j.1:hasConcept>
+    <j.1:hasConcept>Santuari</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:bottomY>1270</j.1:bottomY>
+    <j.1:annotationWidth>93</j.1:annotationWidth>
+    <j.1:hasConcept>Sepolture,Beni_immobili,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:botomX>2565</j.1:botomX>
+    <j.1:hasColor>255,100,100</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:topX>2472</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>0.47724864326241856</j.1:anID>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topY>1163</j.1:topY>
+    <j.1:annotationHeight>107</j.1:annotationHeight>
+    <j.1:annotationText>norba_sepolture</j.1:annotationText>
+    <j.1:hasConcept>Sepolture</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:botomX>733</j.1:botomX>
+    <j.1:bottomY>827</j.1:bottomY>
+    <j.1:annotationWidth>86</j.1:annotationWidth>
+    <j.1:topY>734</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Tempio_Minore,Templi,0</j.1:hasConcept>
+    <j.1:anID>1.991501979658409</j.1:anID>
+    <j.1:annotationHeight>93</j.1:annotationHeight>
+    <j.1:topX>647</j.1:topX>
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_tempiominore</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba_Tempio_Minore</j.1:hasConcept>
+    <j.1:hasConcept>Templi</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:annotationHeight>93</j.1:annotationHeight>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:botomX>1599</j.1:botomX>
+    <j.1:annotationText>norba_vie</j.1:annotationText>
+    <j.1:annotationWidth>86</j.1:annotationWidth>
+    <j.1:bottomY>1378</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:hasColor>150,200,200</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasContent />
+    <j.1:hasConcept>Vie,Viabilita,0</j.1:hasConcept>
+    <j.1:topX>1513</j.1:topX>
+    <j.1:anID>-1.8454421120630111</j.1:anID>
+    <j.1:topY>1285</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+    <j.1:hasConcept>Viabilita</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:topX>1634</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:bottomY>877</j.1:bottomY>
+    <j.1:annotationWidth>122</j.1:annotationWidth>
+    <j.1:topY>777</j.1:topY>
+    <j.1:hasColor>60,155,15</j.1:hasColor>
+    <j.1:botomX>1756</j.1:botomX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationHeight>100</j.1:annotationHeight>
+    <j.1:annotationText>norba_insediamentourbano</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:anID>-0.39342078980047673</j.1:anID>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:36/Media">
+    <j.1:annotationText>norba_stradaacropoliminore</j.1:annotationText>
+    <j.1:topX>1813</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>1942</j.1:botomX>
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:hasConcept>Norba_strada_per_Acropoli_minore,Vie,0</j.1:hasConcept>
+    <j.1:hasContent />
+    <j.1:annotationWidth>129</j.1:annotationWidth>
+    <j.1:annotationHeight>129</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:bottomY>1879</j.1:bottomY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:anID>-0.8837365154894117</j.1:anID>
+    <j.1:topY>1750</j.1:topY>
+    <j.1:hasConcept>Norba_strada_per_Acropoli_minore</j.1:hasConcept>
+    <j.1:hasConcept>Vie</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

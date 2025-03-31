@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:hasComment />
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:bottomY>575</j.1:bottomY>
+    <j.1:botomX>660</j.1:botomX>
+    <j.1:topX>630</j.1:topX>
+    <j.1:topY>548</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:annotationHeight>27</j.1:annotationHeight>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>-2.198337271773204</j.1:anID>
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:annotationWidth>30</j.1:annotationWidth>
+    <j.1:hasColor>235,250,50</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:topX>32</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:topY>333</j.1:topY>
+    <j.1:hasConcept>Pavimenti,Tecniche_Edilizie,0</j.1:hasConcept>
+    <j.1:anID>-0.03183287560912417</j.1:anID>
+    <j.1:annotationHeight>35</j.1:annotationHeight>
+    <j.1:annotationText>norba_pavimenti</j.1:annotationText>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:bottomY>368</j.1:bottomY>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationWidth>36</j.1:annotationWidth>
+    <j.1:hasColor>220,200,135</j.1:hasColor>
+    <j.1:botomX>68</j.1:botomX>
+    <j.1:hasConcept>Pavimenti</j.1:hasConcept>
+    <j.1:hasConcept>Tecniche_Edilizie</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:topX>45</j.1:topX>
+    <j.1:hasColor>255,100,100</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>643</j.1:topY>
+    <j.1:hasConcept>Argilla,Materiali,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:anID>0.25117514798175333</j.1:anID>
+    <j.1:annotationText>norba_argilla</j.1:annotationText>
+    <j.1:annotationWidth>30</j.1:annotationWidth>
+    <j.1:annotationHeight>17</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:bottomY>660</j.1:bottomY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:botomX>75</j.1:botomX>
+    <j.1:hasConcept>Argilla</j.1:hasConcept>
+    <j.1:hasConcept>Materiali</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:annotationHeight>40</j.1:annotationHeight>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasColor>0,255,0</j.1:hasColor>
+    <j.1:hasConcept>Atrium,Parti_Domus,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:annotationWidth>46</j.1:annotationWidth>
+    <j.1:topX>37</j.1:topX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasContent />
+    <j.1:topY>233</j.1:topY>
+    <j.1:bottomY>273</j.1:bottomY>
+    <j.1:annotationText>norba_atrium</j.1:annotationText>
+    <j.1:botomX>83</j.1:botomX>
+    <j.1:anID>-1.90361498844828</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Atrium</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:botomX>87</j.1:botomX>
+    <j.1:topX>34</j.1:topX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:annotationHeight>38</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationWidth>53</j.1:annotationWidth>
+    <j.1:bottomY>81</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:anID>-0.3946041354891755</j.1:anID>
+    <j.1:topY>43</j.1:topY>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:58/Media">
+    <j.1:annotationWidth>48</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topX>43</j.1:topX>
+    <j.1:annotationText>norba_casa_con_colonne</j.1:annotationText>
+    <j.1:bottomY>187</j.1:bottomY>
+    <j.1:botomX>91</j.1:botomX>
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:hasConcept>Norba_Casa_con_le_colonne,Domus,0</j.1:hasConcept>
+    <j.1:hasContent />
+    <j.1:anID>-0.10574168078399498</j.1:anID>
+    <j.1:hasComment />
+    <j.1:annotationHeight>45</j.1:annotationHeight>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:topY>142</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasConcept>Norba_Casa_con_le_colonne</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

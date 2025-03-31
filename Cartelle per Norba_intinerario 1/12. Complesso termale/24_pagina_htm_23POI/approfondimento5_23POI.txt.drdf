@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasConcept>Tepidarium,Terme,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>34</j.2:eLocation>
+    <j.2:hasFakeEndOffset>34</j.2:hasFakeEndOffset>
+    <j.2:anID>0.2665143868692453</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>192,192,192</j.2:hasColor>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:annotationText>sala da bagno con acqua tiepida</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Tepidarium</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:anID>-0.345702937399642</j.2:anID>
+    <j.2:eLocation>54</j.2:eLocation>
+    <j.2:hasConcept>Laconicum,Terme,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasColor>255,100,100</j.2:hasColor>
+    <j.2:annotationText>sauna</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>48</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>53</j.2:hasFakeEndOffset>
+    <j.2:sLocation>49</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Laconicum</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasFakeEndOffset>176</j.2:hasFakeEndOffset>
+    <j.2:sLocation>167</j.2:sLocation>
+    <j.2:anID>-0.5381916537594547</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>tepidarium</j.2:annotationText>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:eLocation>177</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Laconicum,Terme,0</j.2:hasConcept>
+    <j.2:hasFakeStartOffset>166</j.2:hasFakeStartOffset>
+    <j.2:hasColor>255,100,100</j.2:hasColor>
+    <j.2:hasConcept>Laconicum</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>286</j.2:eLocation>
+    <j.2:hasFakeStartOffset>279</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>strada</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:sLocation>280</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>0.8169959874817143</j.2:anID>
+    <j.2:hasFakeEndOffset>285</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_strada_principale,Vie,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba_strada_principale</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

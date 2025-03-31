@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:annotationHeight>40</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasColor>240,90,130</j.1:hasColor>
+    <j.1:botomX>703</j.1:botomX>
+    <j.1:bottomY>573</j.1:bottomY>
+    <j.1:hasComment />
+    <j.1:topY>533</j.1:topY>
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:topX>682</j.1:topX>
+    <j.1:annotationWidth>21</j.1:annotationWidth>
+    <j.1:anID>0.8330733346159721</j.1:anID>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasConcept>Opere_idriche,Beni_immobili,0</j.1:hasConcept>
+    <j.1:hasComment />
+    <j.1:topX>1633</j.1:topX>
+    <j.1:annotationText>norba_opereidriche</j.1:annotationText>
+    <j.1:annotationWidth>32</j.1:annotationWidth>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>46</j.1:annotationHeight>
+    <j.1:hasColor>100,100,255</j.1:hasColor>
+    <j.1:botomX>1665</j.1:botomX>
+    <j.1:topY>477</j.1:topY>
+    <j.1:bottomY>523</j.1:bottomY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:anID>0.0674020205427522</j.1:anID>
+    <j.1:hasConcept>Opere_idriche</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:anID>0.4267354926763102</j.1:anID>
+    <j.1:topY>560</j.1:topY>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:topX>136</j.1:topX>
+    <j.1:bottomY>618</j.1:bottomY>
+    <j.1:annotationHeight>58</j.1:annotationHeight>
+    <j.1:botomX>189</j.1:botomX>
+    <j.1:hasColor>255,255,0</j.1:hasColor>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationWidth>53</j.1:annotationWidth>
+    <j.1:hasConcept>Norba_Domus_1,Domus,0</j.1:hasConcept>
+    <j.1:annotationText>norba_domus1</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:hasConcept>Norba_Domus_1</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.1:hasConcept>Impluvium,Parti_Domus,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:botomX>1023</j.1:botomX>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:topX>987</j.1:topX>
+    <j.1:hasComment />
+    <j.1:topY>581</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>37</j.1:annotationHeight>
+    <j.1:annotationText>norba_impluvium</j.1:annotationText>
+    <j.1:annotationWidth>36</j.1:annotationWidth>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>618</j.1:bottomY>
+    <j.1:anID>-0.8107695847190272</j.1:anID>
+    <j.1:hasConcept>Impluvium</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

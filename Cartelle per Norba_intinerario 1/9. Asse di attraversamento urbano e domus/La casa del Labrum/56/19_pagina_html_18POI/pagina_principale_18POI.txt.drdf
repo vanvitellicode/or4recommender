@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:hasConcept>Norba_Casa_del_labrum,Domus,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>24</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>38</j.2:hasFakeEndOffset>
+    <j.2:anID>0.48010703368654883</j.2:anID>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:annotationText>casa del labrum</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>23</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>39</j.2:eLocation>
+    <j.2:hasConcept>Norba_Casa_del_labrum</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:annotationText>pozzo</j.2:annotationText>
+    <j.2:hasConcept>Pozzi,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>172</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>167</j.2:hasFakeStartOffset>
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>173</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>168</j.2:sLocation>
+    <j.2:anID>-0.8309411096697034</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Pozzi</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:sLocation>511</j.2:sLocation>
+    <j.2:annotationText>bacino</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeStartOffset>509</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Culina,Parti_Domus,0</j.2:hasConcept>
+    <j.2:anID>-0.4981732175473783</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>515</j.2:hasFakeEndOffset>
+    <j.2:eLocation>517</j.2:eLocation>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasConcept>Culina</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:eLocation>322</j.2:eLocation>
+    <j.2:hasFakeEndOffset>321</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Cubiculum,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>due piccole camere da letto</j.2:annotationText>
+    <j.2:anID>-0.8173030062609759</j.2:anID>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>0,255,255</j.2:hasColor>
+    <j.2:hasFakeStartOffset>294</j.2:hasFakeStartOffset>
+    <j.2:sLocation>295</j.2:sLocation>
+    <j.2:hasConcept>Cubiculum</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:eLocation>334</j.2:eLocation>
+    <j.2:sLocation>328</j.2:sLocation>
+    <j.2:annotationText>cucina</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>333</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>-1.319863353206777</j.2:anID>
+    <j.2:hasConcept>Culina,Parti_Domus,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>327</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasConcept>Culina</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:56/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>18</j.2:eLocation>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-0.9589770072039069</j.2:anID>
+    <j.2:hasFakeEndOffset>18</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:annotationText>casa del Labrum</j.2:annotationText>
+    <j.2:hasConcept>Norba_Casa_del_labrum,Domus,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasConcept>Norba_Casa_del_labrum</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

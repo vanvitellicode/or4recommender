@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:64/Media">
+    <j.1:botomX>155</j.1:botomX>
+    <j.1:topX>144</j.1:topX>
+    <j.1:hasComment />
+    <j.1:annotationText>norba_calcare</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Calcare,Pietra,0</j.1:hasConcept>
+    <j.1:bottomY>94</j.1:bottomY>
+    <j.1:anID>0.09808750132601111</j.1:anID>
+    <j.1:hasColor>235,250,50</j.1:hasColor>
+    <j.1:annotationHeight>10</j.1:annotationHeight>
+    <j.1:topY>84</j.1:topY>
+    <j.1:annotationWidth>11</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Calcare</j.1:hasConcept>
+    <j.1:hasConcept>Pietra</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:64/Media">
+    <j.1:annotationHeight>12</j.1:annotationHeight>
+    <j.1:topY>100</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:topX>205</j.1:topX>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Impluvium,Parti_Domus,0</j.1:hasConcept>
+    <j.1:annotationText>norba_impluvium</j.1:annotationText>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:bottomY>112</j.1:bottomY>
+    <j.1:hasColor>0,255,255</j.1:hasColor>
+    <j.1:botomX>215</j.1:botomX>
+    <j.1:annotationWidth>10</j.1:annotationWidth>
+    <j.1:anID>-2.631954174678575</j.1:anID>
+    <j.1:hasConcept>Impluvium</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:64/Media">
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:hasColor>0,255,0</j.1:hasColor>
+    <j.1:hasConcept>Atrium,Parti_Domus,0</j.1:hasConcept>
+    <j.1:annotationWidth>12</j.1:annotationWidth>
+    <j.1:botomX>370</j.1:botomX>
+    <j.1:topX>358</j.1:topX>
+    <j.1:topY>58</j.1:topY>
+    <j.1:hasComment />
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasContent />
+    <j.1:bottomY>72</j.1:bottomY>
+    <j.1:annotationHeight>14</j.1:annotationHeight>
+    <j.1:annotationText>norba_atrium</j.1:annotationText>
+    <j.1:anID>0.9472609117597997</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Atrium</j.1:hasConcept>
+    <j.1:hasConcept>Parti_Domus</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:64/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:hasColor>190,170,130</j.1:hasColor>
+    <j.1:botomX>23</j.1:botomX>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:bottomY>18</j.1:bottomY>
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:topY>6</j.1:topY>
+    <j.1:annotationHeight>12</j.1:annotationHeight>
+    <j.1:topX>10</j.1:topX>
+    <j.1:annotationWidth>13</j.1:annotationWidth>
+    <j.1:hasComment />
+    <j.1:anID>-1.5067699069054363</j.1:anID>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:64/Media">
+    <j.1:topY>9</j.1:topY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationWidth>9</j.1:annotationWidth>
+    <j.1:anID>-0.8392608247242216</j.1:anID>
+    <j.1:botomX>263</j.1:botomX>
+    <j.1:hasConcept>Norba_Casa_grande_impluvium,Domus,0</j.1:hasConcept>
+    <j.1:hasContent />
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:hasComment />
+    <j.1:bottomY>20</j.1:bottomY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>11</j.1:annotationHeight>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topX>254</j.1:topX>
+    <j.1:annotationText>norba_casa_grande_impluvium</j.1:annotationText>
+    <j.1:hasConcept>Norba_Casa_grande_impluvium</j.1:hasConcept>
+    <j.1:hasConcept>Domus</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

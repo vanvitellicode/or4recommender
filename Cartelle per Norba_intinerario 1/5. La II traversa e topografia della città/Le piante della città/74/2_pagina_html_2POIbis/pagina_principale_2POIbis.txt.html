@@ -1,0 +1,332 @@
+<html xmlns:gepson="xalan://com.xslt.Organize" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/document#" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:java="http://xml.apache.org/xalan/java">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+            .cmenu {margin: 0; padding: 0.3em; list-style-type: none; background-color: white;} 
+            .cmenu li:hover {} .cmenu hr {border: 0; border-bottom: 1px solid grey; margin: 3px 0px 3px 0px; width: 10em;} 
+            .cmenu a {border: 0 !important;} .cmenu a:hover {text-decoration: underline !important;} 
+            .cmenu .topSep {font-size: 90%; border-top: 1px solid gray; margin-top: 0.3em; padding-top: 0.3em;}
+            </style>
+<script type="text/javascript">
+function myOver(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#00FF00";
+        }
+	}
+function myOut(id){
+	for(var i = 0; i < id.length; i++) {
+              var evi=document.getElementById(id[i]);
+              evi.style.background = "#FFFFFF";
+        }
+	}
+	function toggleCheck(t){
+	if(document.getElementById(t).checked == true)
+	document.getElementById(t).checked = false;
+	else document.getElementById(t).checked = true;
+}
+ 
+function checkAndGo()
+{
+	var controllo=0;
+	var controllo_radio=false;
+	var concetto;
+	var concetti=new Array();
+	//bisogna scartare i due radio button e i bottoni dal for!!!
+	for (i=0;i<document.forms[0].elements.length-4;i++){
+		if(document.forms[0].elements[i].checked)
+		controllo++;
+	}
+	if(controllo==0){
+		alert("Select at least one concept!");
+		return false;
+	}
+	
+	else if(controllo>1){
+		for (j=0;j<document.forms[0].operator.length;j++) {
+			if (document.forms[0].operator[j].checked) {
+				controllo_radio=true;
+			}
+		}
+		if(!controllo_radio){
+			alert("Select operator!");
+		    return false;
+		}
+	}
+	
+	if (controllo==1){
+		for (k=0;k<document.forms[0].elements.length-4;k++){
+			if(document.forms[0].elements[k].checked)
+			concetto=document.forms[0].elements[k].id;
+		}
+             //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		window.location = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+encodeURIComponent(concetto)+'%22%0A%7D';
+		return false;
+		}
+		if (controllo>1){
+			for (j=0;j<document.forms[0].elements.length-4;j++){
+				if(document.forms[0].elements[j].checked){
+					concetti.push(document.forms[0].elements[j].id);
+				}
+			}
+			var operatore;
+			var query_in;
+			var query_pre='http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A';
+			var query_post='%0A%7D';
+			for (q=0;q<document.forms[0].operator.length;q++) {
+			    if (document.forms[0].operator[q].checked) 
+				operatore = document.forms[0].operator[q].value;
+			}
+			
+			if(operatore=='AND'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					else {
+						query_in=query_in+'%20%2E%20'+'%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22';
+					}
+				}
+			}
+			if(operatore=='OR'){
+				for(p=0;p<concetti.length;p++){
+                                        //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+					//?a j.2:hasConcept "fgewqg"
+					if (p==0) query_in='%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					else {
+						query_in=query_in+'%20UNION%20'+'%7B%24a%20%24b%20%22'+encodeURIComponent(concetti[p])+'%22%7D';
+					}
+				}
+			}
+			var query = query_pre+query_in+query_post;
+			window.location = query;
+		    return false;
+		
+		}
+}
+
+
+	
+</script>
+</head>
+<body>
+<table>
+<tr>
+<td>
+<form onsubmit="return checkAndGo()" method="get" action="">
+<ul>
+<li>
+<input type="checkbox" name="1" id="Schmiedt"><a href="javascript:toggleCheck('Schmiedt');" class="lk" onmouseover="myOver(
+		                 [0.3438770406014234]);" onmouseout="myOut(
+		                 [0.3438770406014234]);">Schmiedt</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="2" id="Personaggi_Norba"><a href="javascript:toggleCheck('Personaggi_Norba');" class="lk" onmouseover="myOver(
+		                 [0.3438770406014234,1.175495091325883,0.02939646019385727,-0.059230160920865464,0.4687486716328009,1.2303209840661848,1.108928299257534,-0.47956334765572195]);" onmouseout="myOut(
+		                 [0.3438770406014234,1.175495091325883,0.02939646019385727,-0.059230160920865464,0.4687486716328009,1.2303209840661848,1.108928299257534,-0.47956334765572195]);">Personaggi_Norba</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="3" id="Insediamenti_Urbani"><a href="javascript:toggleCheck('Insediamenti_Urbani');" class="lk" onmouseover="myOver(
+		                 [-0.6229071092746543,2.1481436465876937]);" onmouseout="myOut(
+		                 [-0.6229071092746543,2.1481436465876937]);">Insediamenti_Urbani</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="4" id="Ferdinando_Castagnoli"><a href="javascript:toggleCheck('Ferdinando_Castagnoli');" class="lk" onmouseover="myOver(
+		                 [1.175495091325883]);" onmouseout="myOut(
+		                 [1.175495091325883]);">Ferdinando_Castagnoli</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="5" id="Arthur_Lincoln_Frothingam"><a href="javascript:toggleCheck('Arthur_Lincoln_Frothingam');" class="lk" onmouseover="myOver(
+		                 [0.02939646019385727]);" onmouseout="myOut(
+		                 [0.02939646019385727]);">Arthur_Lincoln_Frothingam</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="6" id="Lorenzo_Quilici"><a href="javascript:toggleCheck('Lorenzo_Quilici');" class="lk" onmouseover="myOver(
+		                 [-0.059230160920865464]);" onmouseout="myOut(
+		                 [-0.059230160920865464]);">Lorenzo_Quilici</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="7" id="Luigi_Savignoni"><a href="javascript:toggleCheck('Luigi_Savignoni');" class="lk" onmouseover="myOver(
+		                 [0.4687486716328009]);" onmouseout="myOut(
+		                 [0.4687486716328009]);">Luigi_Savignoni</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="8" id="Raniero_Mengarelli"><a href="javascript:toggleCheck('Raniero_Mengarelli');" class="lk" onmouseover="myOver(
+		                 [1.2303209840661848]);" onmouseout="myOut(
+		                 [1.2303209840661848]);">Raniero_Mengarelli</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="9" id="John_Michael_Knapp"><a href="javascript:toggleCheck('John_Michael_Knapp');" class="lk" onmouseover="myOver(
+		                 [1.108928299257534]);" onmouseout="myOut(
+		                 [1.108928299257534]);">John_Michael_Knapp</a>
+</li>
+<br>
+<li>
+<input type="checkbox" name="10" id="Stefania_Quilici_Gigli"><a href="javascript:toggleCheck('Stefania_Quilici_Gigli');" class="lk" onmouseover="myOver(
+		                 [-0.47956334765572195]);" onmouseout="myOut(
+		                 [-0.47956334765572195]);">Stefania_Quilici_Gigli</a>
+</li>
+<br>
+</ul>
+<input value="Update Profile" type="submit">
+<table>
+<tr>
+<td>
+<ul>
+<li>
+<input type="radio" name="operator" value="AND">AND</li>
+<li>
+<input type="radio" name="operator" value="OR">OR</li>
+</ul>
+</td><td><input type="submit" value="Semantic Search"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<div>
+<p>
+<h3>Le piante della <span style="background-color: #FFFFFF" id="2.1481436465876937"><a href="#">città</a></span>
+</h3>Il luogo è stato ben presente negli studi topografici che hanno proposto sempre maggiori elementi di conoscenza, sintetizzati nelle piante della <span style="background-color: #FFFFFF" id="-0.6229071092746543"><a href="#">città</a></span>.
+La prima pianta fu redatta nel 1829 da <span style="background-color: #FFFFFF" id="1.108928299257534"><a href="#">G. Knapp</a></span>; nel 1901 ne fu predisposta una da <span style="background-color: #FFFFFF" id="0.4687486716328009"><a href="#">L. Savignoni</a></span> e <span style="background-color: #FFFFFF" id="1.2303209840661848"><a href="#">R. Mengarelli</a></span> e, nello stesso anno, una diversa da <span style="background-color: #FFFFFF" id="0.02939646019385727"><a href="#">A.L. Frothingam</a></span>. Alla metà del 1900 risale la pianta di <span style="background-color: #FFFFFF" id="0.3438770406014234"><a href="#">G. Schmiedt</a></span> e <span style="background-color: #FFFFFF" id="1.175495091325883"><a href="#">F. Castagnoli</a></span>; più di recente quella di <span style="background-color: #FFFFFF" id="-0.059230160920865464"><a href="#">L. Quilici</a></span> e <span style="background-color: #FFFFFF" id="-0.47956334765572195"><a href="#">S. Quilici Gigli</a></span>.
+
+</p>
+</div>
+</td>
+</tr>
+</table>
+<div style="border: 1px solid blue; display: none; position: absolute" id="divContext">
+<ul class="cmenu">
+<li>
+<a target="_blank" href="#" id="aContextNav">Search related contents</a>
+</li>
+</ul>
+</div>
+<script type="text/javascript" language="JavaScript">
+                   
+var _replaceContext = false;		// replace the system context menu?
+var _mouseOverContext = false;		// is the mouse over the context menu?
+var _noContext = false;				// disable the context menu?
+var _divContext = $('divContext');	// makes my life easier
+
+InitContext();
+
+function InitContext()
+{
+	_divContext.onmouseover = function() { _mouseOverContext = true; };
+	_divContext.onmouseout = function() { _mouseOverContext = false; };
+
+	//$('aDisable').onclick = DisableContext;
+	//$('aEnable').onclick = EnableContext;
+
+	document.body.onmousedown = ContextMouseDown;
+	document.body.oncontextmenu = ContextShow;
+}
+
+// call from the onMouseDown event, passing the event if standards compliant
+function ContextMouseDown(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	// only show the context menu if the right mouse button is pressed
+	//   and a hyperlink has been clicked (the code can be made more selective)
+	if (event.button != 2 && target.tagName.toLowerCase() == 'a' && target.className != 'lk'){
+	    target.href="http://www.google.com/search?q="+target.innerHTML;
+	    target.target="_blank";
+	    }
+	if (event.button == 2 && target.tagName.toLowerCase() == 'a' && target.className == 'lk')
+		_replaceContext = true;
+	else if (!_mouseOverContext)
+		_divContext.style.display = 'none';
+}
+
+function CloseContext()
+{
+	_mouseOverContext;
+	_divContext.style.display = 'none';
+}
+
+// call from the onContextMenu event, passing the event
+// if this function returns false, the browser's context menu will not show up
+function ContextShow(event)
+{
+	if (_noContext || _mouseOverContext)
+		return;
+
+	// IE is evil and doesn't pass the event object
+	if (event == null)
+		event = window.event;
+
+	// we assume we have a standards compliant browser, but check if we have IE
+	var target = event.target != null ? event.target : event.srcElement;
+
+	if (_replaceContext)
+	{
+              //2012_06_20 sostituisco j%2E%32%3AhasConcept con %24b (?b) per cercare il concetto sia nelle immagini che nei testi
+		$('aContextNav').href = 'http://parsec2.unina2.it/~pristweb/contents/grabbing.php?type=tuples&lang=sparql&format=CSV&query=PREFIX%20fedora%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Frelations-external%23%3E%0APREFIX%20fedora-model%3A%20%3Cinfo%3Afedora%2Ffedora-system%3Adef%2Fmodel%23%3E%0APREFIX%20ont%3A%20%3Cinfo%3Afedora%2FDemo%3A%39%2Fdatastreams%2FRELS-EXT%2Fcontent%23%3E%0APREFIX%20j%2E%32%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%2Fannotation%23%3E%0APREFIX%20j%2E%33%3A%20%3Chttp%3A%2F%2Fwww%2Edcs%2Eshef%2Eac%2Euk%2F%7Eajay%2Fdocument%23%3E%0ASELECT%20%24a%20%20from%20%3C%23ri%3E%20WHERE%20%7B%0A%24a%20%24b%20%22'+
+			encodeURIComponent(target.innerHTML)+'%22%0A%7D';
+		//$('aAddWebmark').href = 'http://luke.breuer.com/webmark/?addurl=' +
+		//	encodeURIComponent(target.href) + '&title=' +
+		//	encodeURIComponent(target.innerHTML);
+		
+		// document.body.scrollTop does not work in IE
+		var scrollTop = document.body.scrollTop ? document.body.scrollTop :
+			document.documentElement.scrollTop;
+		var scrollLeft = document.body.scrollLeft ? document.body.scrollLeft :
+			document.documentElement.scrollLeft;
+
+		// hide the menu first to avoid an "up-then-over" visual effect
+		_divContext.style.display = 'none';
+		_divContext.style.left = event.clientX + scrollLeft + 'px';
+		_divContext.style.top = event.clientY + scrollTop + 'px';
+		_divContext.style.display = 'block';
+
+		_replaceContext = false;
+
+		return false;
+	}
+}
+
+
+//function DisableContext()
+//{
+//	_noContext = true;
+//	CloseContext();
+//	$('aEnable').style.display = '';
+//
+//	return false;
+//}
+
+//function EnableContext()
+//{
+//	_noContext = false;
+//	_mouseOverContext = false; // this gets left enabled when "disable menus" is chosen
+//	$('aEnable').style.display = 'none';
+//
+//	return false;
+//}
+
+// comes from prototype.js; this is simply easier on the eyes and fingers
+function $(id)
+{
+	return document.getElementById(id);
+}
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasConcept>Norba_Domus_1,Domus,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeStartOffset>14</j.2:hasFakeStartOffset>
+    <j.2:sLocation>14</j.2:sLocation>
+    <j.2:hasFakeEndOffset>30</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>casa del caduceo</j.2:annotationText>
+    <j.2:hasColor>255,255,0</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>30</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>1.1705932418980178</j.2:anID>
+    <j.2:hasConcept>Norba_Domus_1</j.2:hasConcept>
+    <j.2:hasConcept>Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:annotationText>atrio</j.2:annotationText>
+    <j.2:hasFakeStartOffset>2</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Atrium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>7</j.2:hasFakeEndOffset>
+    <j.2:anID>-1.0524523005836064</j.2:anID>
+    <j.2:sLocation>2</j.2:sLocation>
+    <j.2:eLocation>7</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Atrium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasFakeStartOffset>527</j.2:hasFakeStartOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>579</j.2:hasFakeEndOffset>
+    <j.2:anID>0.13745081586042635</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>e da questo in quello pubblico posto sotto le strade</j.2:annotationText>
+    <j.2:eLocation>580</j.2:eLocation>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:hasConcept>Fogna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:sLocation>528</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Fogna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>203</j.2:sLocation>
+    <j.2:anID>0.5915442734560592</j.2:anID>
+    <j.2:hasFakeEndOffset>218</j.2:hasFakeEndOffset>
+    <j.2:eLocation>219</j.2:eLocation>
+    <j.2:hasConcept>Impluvium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>202</j.2:hasFakeStartOffset>
+    <j.2:annotationText>vasca in calcare</j.2:annotationText>
+    <j.2:hasColor>70,255,100</j.2:hasColor>
+    <j.2:hasConcept>Impluvium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:hasFakeStartOffset>499</j.2:hasFakeStartOffset>
+    <j.2:anID>-0.24323235445140162</j.2:anID>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:hasConcept>Fogna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>sistema fognario della casa</j.2:annotationText>
+    <j.2:eLocation>527</j.2:eLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:sLocation>500</j.2:sLocation>
+    <j.2:hasFakeEndOffset>526</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Fogna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:eLocation>301</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Cisterna,Opere_idriche,0</j.2:hasConcept>
+    <j.2:anID>1.772634035160784</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>300</j.2:hasFakeEndOffset>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:sLocation>281</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>cisterne sotterranee</j.2:annotationText>
+    <j.2:hasFakeStartOffset>280</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Cisterna</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:sLocation>306</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>318</j.2:hasFakeEndOffset>
+    <j.2:eLocation>319</j.2:eLocation>
+    <j.2:hasFakeStartOffset>305</j.2:hasFakeStartOffset>
+    <j.2:anID>-1.4322761282698622</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>150,200,200</j.2:hasColor>
+    <j.2:annotationText>piccolo pozzo</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Pozzi,Opere_idriche,0</j.2:hasConcept>
+    <j.2:hasConcept>Pozzi</j.2:hasConcept>
+    <j.2:hasConcept>Opere_idriche</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:69/Media">
+    <j.2:anID>0.9182522043626201</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>34</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Atrium,Parti_Domus,0</j.2:hasConcept>
+    <j.2:annotationText>atrio</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>250,155,50</j.2:hasColor>
+    <j.2:hasFakeEndOffset>38</j.2:hasFakeEndOffset>
+    <j.2:eLocation>39</j.2:eLocation>
+    <j.2:hasFakeStartOffset>33</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Atrium</j.2:hasConcept>
+    <j.2:hasConcept>Parti_Domus</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

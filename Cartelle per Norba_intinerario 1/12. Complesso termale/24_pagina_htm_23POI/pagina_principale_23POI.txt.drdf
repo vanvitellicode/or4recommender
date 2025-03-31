@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasColor>250,185,200</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>431</j.2:hasFakeEndOffset>
+    <j.2:annotationText>spogliatoi</j.2:annotationText>
+    <j.2:hasFakeStartOffset>421</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasConcept>Apodyterium,Terme,0</j.2:hasConcept>
+    <j.2:anID>0.6647246849531776</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>433</j.2:eLocation>
+    <j.2:sLocation>423</j.2:sLocation>
+    <j.2:hasConcept>Apodyterium</j.2:hasConcept>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:annotationText>strada principale</j.2:annotationText>
+    <j.2:sLocation>58</j.2:sLocation>
+    <j.2:hasFakeEndOffset>74</j.2:hasFakeEndOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:anID>2.037137132917307</j.2:anID>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>57</j.2:hasFakeStartOffset>
+    <j.2:eLocation>75</j.2:eLocation>
+    <j.2:hasConcept>Norba_strada_principale,Vie,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba_strada_principale</j.2:hasConcept>
+    <j.2:hasConcept>Vie</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>terme</j.2:annotationText>
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:anID>-0.8842678212455478</j.2:anID>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:eLocation>8</j.2:eLocation>
+    <j.2:hasConcept>Terme,Beni_immobili,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:hasFakeEndOffset>8</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasFakeEndOffset>143</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>138</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Terme,Beni_immobili,0</j.2:hasConcept>
+    <j.2:sLocation>139</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>144</j.2:eLocation>
+    <j.2:annotationText>terma</j.2:annotationText>
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>1.0376108003625075</j.2:anID>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:annotationText>terme</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>297</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Terme,Beni_immobili,0</j.2:hasConcept>
+    <j.2:hasFakeEndOffset>295</j.2:hasFakeEndOffset>
+    <j.2:sLocation>292</j.2:sLocation>
+    <j.2:anID>-1.939150083341031</j.2:anID>
+    <j.2:hasColor>240,90,130</j.2:hasColor>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>290</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Terme</j.2:hasConcept>
+    <j.2:hasConcept>Beni_immobili</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:61/Media">
+    <j.2:hasFakeStartOffset>81</j.2:hasFakeStartOffset>
+    <j.2:eLocation>87</j.2:eLocation>
+    <j.2:sLocation>82</j.2:sLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:annotationText>citt?</j.2:annotationText>
+    <j.2:hasFakeEndOffset>86</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>-0.14454619073520492</j.2:anID>
+    <j.2:hasColor>190,170,130</j.2:hasColor>
+    <j.2:hasConcept>Norba,Insediamenti_Urbani,0</j.2:hasConcept>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba</j.2:hasConcept>
+    <j.2:hasConcept>Insediamenti_Urbani</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

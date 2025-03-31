@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://www.dcs.shef.ac.uk/~ajay/image#" xmlns:j.1="http://www.dcs.shef.ac.uk/~ajay/image/annotation#">
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasComment />
+    <j.1:topX>379</j.1:topX>
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:hasConcept>Norba_Porta_Signina,Opere_difensive,0</j.1:hasConcept>
+    <j.1:annotationText>norba_portasignina</j.1:annotationText>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:anID>-0.358381222561861</j.1:anID>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationHeight>32</j.1:annotationHeight>
+    <j.1:bottomY>207</j.1:bottomY>
+    <j.1:topY>175</j.1:topY>
+    <j.1:botomX>411</j.1:botomX>
+    <j.1:annotationWidth>32</j.1:annotationWidth>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Porta_Signina</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasColor>255,255,0</j.1:hasColor>
+    <j.1:annotationText>norba_veduta_storica</j.1:annotationText>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:topY>23</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>47</j.1:annotationWidth>
+    <j.1:anID>-0.5596901945843786</j.1:anID>
+    <j.1:bottomY>72</j.1:bottomY>
+    <j.1:hasConcept>Vedute_antiche,Fonti_iconografiche,0</j.1:hasConcept>
+    <j.1:annotationHeight>49</j.1:annotationHeight>
+    <j.1:topX>19</j.1:topX>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:botomX>66</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:hasConcept>Vedute_antiche</j.1:hasConcept>
+    <j.1:hasConcept>Fonti_iconografiche</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:bottomY>704</j.1:bottomY>
+    <j.1:anID>1.416286752596682</j.1:anID>
+    <j.1:topX>233</j.1:topX>
+    <j.1:annotationText>norba_portasignina</j.1:annotationText>
+    <j.1:annotationHeight>56</j.1:annotationHeight>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:hasComment />
+    <j.1:botomX>265</j.1:botomX>
+    <j.1:hasConcept>Norba_Porta_Signina,Opere_difensive,0</j.1:hasConcept>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topY>648</j.1:topY>
+    <j.1:annotationWidth>32</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba_Porta_Signina</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:topY>648</j.1:topY>
+    <j.1:hasConcept>Norba_Porta_Signina,Opere_difensive,0</j.1:hasConcept>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasColor>192,192,192</j.1:hasColor>
+    <j.1:annotationWidth>35</j.1:annotationWidth>
+    <j.1:annotationHeight>41</j.1:annotationHeight>
+    <j.1:bottomY>689</j.1:bottomY>
+    <j.1:hasContent />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>508</j.1:botomX>
+    <j.1:anID>0.593641349907927</j.1:anID>
+    <j.1:topX>473</j.1:topX>
+    <j.1:annotationText>norba_pietracalcare</j.1:annotationText>
+    <j.1:hasComment />
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasConcept>Norba_Porta_Signina</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasColor>250,155,50</j.1:hasColor>
+    <j.1:annotationHeight>38</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:botomX>525</j.1:botomX>
+    <j.1:topY>292</j.1:topY>
+    <j.1:bottomY>330</j.1:bottomY>
+    <j.1:anID>-0.5159495538510042</j.1:anID>
+    <j.1:annotationWidth>35</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba,Insediamenti_Urbani,0</j.1:hasConcept>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:topX>490</j.1:topX>
+    <j.1:annotationText>norba_insediamento_urbano</j.1:annotationText>
+    <j.1:hasConcept>Norba</j.1:hasConcept>
+    <j.1:hasConcept>Insediamenti_Urbani</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasColor>0,255,255</j.1:hasColor>
+    <j.1:annotationText>norba_mura</j.1:annotationText>
+    <j.1:annotationHeight>35</j.1:annotationHeight>
+    <j.1:hasComment />
+    <j.1:hasConcept>Norba_Mura,Opere_difensive,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasContent />
+    <j.1:botomX>709</j.1:botomX>
+    <j.1:bottomY>151</j.1:bottomY>
+    <j.1:annotationWidth>44</j.1:annotationWidth>
+    <j.1:topX>665</j.1:topX>
+    <j.1:topY>116</j.1:topY>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:anID>-1.275820513861113</j.1:anID>
+    <j.1:hasConcept>Norba_Mura</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:bottomY>1239</j.1:bottomY>
+    <j.1:topY>1195</j.1:topY>
+    <j.1:annotationText>norba_portamaggiore</j.1:annotationText>
+    <j.1:topX>589</j.1:topX>
+    <j.1:annotationHeight>44</j.1:annotationHeight>
+    <j.1:anID>0.6244367708755428</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:hasConcept>Norba_Porta_Maggiore,Opere_difensive,0</j.1:hasConcept>
+    <j.1:annotationWidth>44</j.1:annotationWidth>
+    <j.1:botomX>633</j.1:botomX>
+    <j.1:hasComment />
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:hasContent />
+    <j.1:hasColor>0,255,0</j.1:hasColor>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:hasConcept>Norba_Porta_Maggiore</j.1:hasConcept>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:topX>499</j.1:topX>
+    <j.1:anID>0.8902437599634442</j.1:anID>
+    <j.1:hasComment />
+    <j.1:annotationText>porta_portatipocorridoio</j.1:annotationText>
+    <j.1:annotationWidth>29</j.1:annotationWidth>
+    <j.1:hasColor>250,185,200</j.1:hasColor>
+    <j.1:botomX>528</j.1:botomX>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topY>169</j.1:topY>
+    <j.1:hasContent />
+    <j.1:annotationHeight>26</j.1:annotationHeight>
+    <j.1:hasConcept>Porta_tipo_a_corridoio,Tipologia_Porte,0</j.1:hasConcept>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:bottomY>195</j.1:bottomY>
+    <j.1:hasConcept>Porta_tipo_a_corridoio</j.1:hasConcept>
+    <j.1:hasConcept>Tipologia_Porte</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:annotationWidth>47</j.1:annotationWidth>
+    <j.1:hasContent />
+    <j.1:topX>183</j.1:topX>
+    <j.1:hasColor>70,255,100</j.1:hasColor>
+    <j.1:botomX>230</j.1:botomX>
+    <j.1:anID>0.6271256115233533</j.1:anID>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationText>norba_operedifensive</j.1:annotationText>
+    <j.1:hasConcept>Opere_difensive,Beni_immobili,0</j.1:hasConcept>
+    <j.1:isIndividual>false</j.1:isIndividual>
+    <j.1:annotationHeight>41</j.1:annotationHeight>
+    <j.1:topY>1139</j.1:topY>
+    <j.1:hasComment />
+    <j.1:bottomY>1180</j.1:bottomY>
+    <j.1:hasConcept>Opere_difensive</j.1:hasConcept>
+    <j.1:hasConcept>Beni_immobili</j.1:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:4/Media">
+    <j.1:bottomY>1289</j.1:bottomY>
+    <j.1:hasShape>0</j.1:hasShape>
+    <j.1:annotationHeight>53</j.1:annotationHeight>
+    <j.1:hasColor>240,90,130</j.1:hasColor>
+    <j.1:hasContent />
+    <j.1:annotationText>norba_portatiposceo</j.1:annotationText>
+    <j.1:anID>0.6151473343162346</j.1:anID>
+    <j.1:hasComment />
+    <j.1:botomX>788</j.1:botomX>
+    <j.1:topY>1236</j.1:topY>
+    <j.1:annotationWidth>29</j.1:annotationWidth>
+    <j.1:hasRelationNumber>0</j.1:hasRelationNumber>
+    <j.1:isIndividual>true</j.1:isIndividual>
+    <j.1:topX>759</j.1:topX>
+    <j.1:hasConcept>Porta_tipo_sceo,Tipologia_Porte,0</j.1:hasConcept>
+    <j.1:hasConcept>Porta_tipo_sceo</j.1:hasConcept>
+    <j.1:hasConcept>Tipologia_Porte</j.1:hasConcept>
+  </rdf:Description>
+</rdf:RDF>

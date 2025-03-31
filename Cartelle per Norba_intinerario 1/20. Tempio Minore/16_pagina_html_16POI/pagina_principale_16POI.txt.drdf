@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.2="http://www.dcs.shef.ac.uk/~ajay/document/annotation#" xmlns:j.3="http://www.dcs.shef.ac.uk/~ajay/document#">
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:sLocation>449</j.2:sLocation>
+    <j.2:annotationText>tetto</j.2:annotationText>
+    <j.2:hasColor>0,255,0</j.2:hasColor>
+    <j.2:eLocation>454</j.2:eLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasFakeStartOffset>448</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-0.46456292120332926</j.2:anID>
+    <j.2:hasConcept>Tetto,Parti_templi,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>453</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Tetto</j.2:hasConcept>
+    <j.2:hasConcept>Parti_templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>cella</j.2:annotationText>
+    <j.2:hasFakeStartOffset>697</j.2:hasFakeStartOffset>
+    <j.2:hasFakeEndOffset>702</j.2:hasFakeEndOffset>
+    <j.2:sLocation>699</j.2:sLocation>
+    <j.2:anID>-1.4319366009532903</j.2:anID>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:eLocation>704</j.2:eLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasColor>100,100,255</j.2:hasColor>
+    <j.2:hasConcept>Norba_TempioMinore,Cella_unica,0</j.2:hasConcept>
+    <j.2:hasConcept>Norba_TempioMinore</j.2:hasConcept>
+    <j.2:hasConcept>Cella_unica</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasFakeStartOffset>138</j.2:hasFakeStartOffset>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:eLocation>155</j.2:eLocation>
+    <j.2:sLocation>139</j.2:sLocation>
+    <j.2:hasConcept>Opera_poligonale,Murature,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:annotationText>opera poligonale</j.2:annotationText>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>154</j.2:hasFakeEndOffset>
+    <j.2:anID>2.807737741195916</j.2:anID>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Opera_poligonale</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>3</j.2:sLocation>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>1.5948865932901162</j.2:anID>
+    <j.2:annotationText>Tempio Minore</j.2:annotationText>
+    <j.2:hasFakeEndOffset>16</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Norba_Tempio_Minore,Templi,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>16</j.2:eLocation>
+    <j.2:hasFakeStartOffset>3</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_Tempio_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:annotationText>Tempio Minore</j.2:annotationText>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:anID>-0.8547626669037901</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>33</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>20</j.2:hasFakeStartOffset>
+    <j.2:hasConcept>Norba_Tempio_Minore,Templi,0</j.2:hasConcept>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>21</j.2:sLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:eLocation>34</j.2:eLocation>
+    <j.2:hasConcept>Norba_Tempio_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:anID>0.06739354325638164</j.2:anID>
+    <j.2:annotationText>forte tendenza all?opera quadrata</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:eLocation>293</j.2:eLocation>
+    <j.2:sLocation>260</j.2:sLocation>
+    <j.2:hasConcept>Opera_quadrata,Murature,0</j.2:hasConcept>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>292</j.2:hasFakeEndOffset>
+    <j.2:hasFakeStartOffset>259</j.2:hasFakeStartOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Opera_quadrata</j.2:hasConcept>
+    <j.2:hasConcept>Murature</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasColor>255,100,255</j.2:hasColor>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>pronao</j.2:annotationText>
+    <j.2:hasFakeStartOffset>722</j.2:hasFakeStartOffset>
+    <j.2:eLocation>730</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:anID>0.2300792041236207</j.2:anID>
+    <j.2:hasFakeEndOffset>728</j.2:hasFakeEndOffset>
+    <j.2:hasConcept>Pronao,Parti_templi,0</j.2:hasConcept>
+    <j.2:sLocation>724</j.2:sLocation>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:hasConcept>Pronao</j.2:hasConcept>
+    <j.2:hasConcept>Parti_templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasFakeEndOffset>531</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Norba_Tempio_Minore,Templi,0</j.2:hasConcept>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:eLocation>533</j.2:eLocation>
+    <j.2:annotationText>tempio</j.2:annotationText>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:sLocation>527</j.2:sLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeStartOffset>525</j.2:hasFakeStartOffset>
+    <j.2:anID>-0.9117409775230303</j.2:anID>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasConcept>Norba_Tempio_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasConcept>Norba_Tempio_Minore,Templi,0</j.2:hasConcept>
+    <j.2:eLocation>648</j.2:eLocation>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:sLocation>642</j.2:sLocation>
+    <j.2:hasFakeStartOffset>640</j.2:hasFakeStartOffset>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasFakeEndOffset>646</j.2:hasFakeEndOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasColor>50,250,100</j.2:hasColor>
+    <j.2:annotationText>tempio</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:anID>-0.44924741186743006</j.2:anID>
+    <j.2:hasConcept>Norba_Tempio_Minore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasFakeStartOffset>574</j.2:hasFakeStartOffset>
+    <j.2:eLocation>585</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasConcept>Rampa_accesso,Parti_templi,0</j.2:hasConcept>
+    <j.2:annotationText>gradinata</j.2:annotationText>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>100,100,255</j.2:hasColor>
+    <j.2:hasFakeEndOffset>583</j.2:hasFakeEndOffset>
+    <j.2:isIndividual>false</j.2:isIndividual>
+    <j.2:anID>-1.3724373776187613</j.2:anID>
+    <j.2:sLocation>576</j.2:sLocation>
+    <j.2:hasConcept>Rampa_accesso</j.2:hasConcept>
+    <j.2:hasConcept>Parti_templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:eLocation>103</j.2:eLocation>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:anID>-1.733537047062285</j.2:anID>
+    <j.2:hasConcept>Norba_Tempio_Maggiore,Templi,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:hasFakeEndOffset>102</j.2:hasFakeEndOffset>
+    <j.2:annotationText>Tempio Maggiore</j.2:annotationText>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:hasFakeStartOffset>87</j.2:hasFakeStartOffset>
+    <j.2:sLocation>88</j.2:sLocation>
+    <j.2:hasConcept>Norba_Tempio_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasConcept>II_aC,Datazione_al_secolo,0</j.2:hasConcept>
+    <j.2:annotationText>II</j.2:annotationText>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:sLocation>806</j.2:sLocation>
+    <j.2:hasFakeStartOffset>804</j.2:hasFakeStartOffset>
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:hasFakeEndOffset>806</j.2:hasFakeEndOffset>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:anID>1.4485597613495313</j.2:anID>
+    <j.2:eLocation>808</j.2:eLocation>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasColor>140,230,100</j.2:hasColor>
+    <j.2:hasConcept>II_aC</j.2:hasConcept>
+    <j.2:hasConcept>Datazione_al_secolo</j.2:hasConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="info:fedora/Prist:44/Media">
+    <j.2:hasRelationNumber>0</j.2:hasRelationNumber>
+    <j.2:isIndividual>true</j.2:isIndividual>
+    <j.2:hasFakeEndOffset>684</j.2:hasFakeEndOffset>
+    <j.2:eLocation>686</j.2:eLocation>
+    <j.2:anID>0.4689097004494336</j.2:anID>
+    <j.2:hasColor>235,250,50</j.2:hasColor>
+    <j.2:hasType>1</j.2:hasType>
+    <j.2:hasConcept>Norba_Tempio_Maggiore,Templi,0</j.2:hasConcept>
+    <j.2:hasExtraAnnotationConcepts>NONE</j.2:hasExtraAnnotationConcepts>
+    <j.2:annotationText>Tempio Maggiore</j.2:annotationText>
+    <j.2:hasFakeStartOffset>669</j.2:hasFakeStartOffset>
+    <j.2:sLocation>671</j.2:sLocation>
+    <j.2:hasConcept>Norba_Tempio_Maggiore</j.2:hasConcept>
+    <j.2:hasConcept>Templi</j.2:hasConcept>
+  </rdf:Description>
+</rdf:RDF>
